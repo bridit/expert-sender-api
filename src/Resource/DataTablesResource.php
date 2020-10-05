@@ -1,32 +1,32 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Resource;
+namespace Pzelant\ExpertSenderApi\Resource;
 
-use Citilink\ExpertSenderApi\AbstractResource;
-use Citilink\ExpertSenderApi\Model\Column;
-use Citilink\ExpertSenderApi\Model\DataTablesAddMultipleRowsPostRequest\Row;
-use Citilink\ExpertSenderApi\Model\DataTablesDeleteRowsPostRequest\Filter;
-use Citilink\ExpertSenderApi\Model\DataTablesGetDataPostRequest\OrderByRule;
-use Citilink\ExpertSenderApi\Model\WhereCondition;
-use Citilink\ExpertSenderApi\Request\DataTablesAddMultipleRowsPostRequest;
-use Citilink\ExpertSenderApi\Request\DataTablesClearTableRequest;
-use Citilink\ExpertSenderApi\Request\DataTablesDeleteRowPostRequest;
-use Citilink\ExpertSenderApi\Request\DataTablesDeleteRowsPostRequest;
-use Citilink\ExpertSenderApi\Request\DataTablesGetDataCountRequest;
-use Citilink\ExpertSenderApi\Request\DataTablesGetDataPostRequest;
-use Citilink\ExpertSenderApi\Request\DataTablesGetTablesRequest;
-use Citilink\ExpertSenderApi\Request\DataTablesUpdateRowPostRequest;
-use Citilink\ExpertSenderApi\Response\CountResponse;
-use Citilink\ExpertSenderApi\Response\DataTablesGetTablesDetailsResponse;
-use Citilink\ExpertSenderApi\Response\DataTablesGetTablesSummaryResponse;
-use Citilink\ExpertSenderApi\ResponseInterface;
-use Citilink\ExpertSenderApi\SpecificCsvMethodResponse;
+use Pzelant\ExpertSenderApi\AbstractResource;
+use Pzelant\ExpertSenderApi\Model\Column;
+use Pzelant\ExpertSenderApi\Model\DataTablesAddMultipleRowsPostRequest\Row;
+use Pzelant\ExpertSenderApi\Model\DataTablesDeleteRowsPostRequest\Filter;
+use Pzelant\ExpertSenderApi\Model\DataTablesGetDataPostRequest\OrderByRule;
+use Pzelant\ExpertSenderApi\Model\WhereCondition;
+use Pzelant\ExpertSenderApi\Request\DataTablesAddMultipleRowsPostRequest;
+use Pzelant\ExpertSenderApi\Request\DataTablesClearTableRequest;
+use Pzelant\ExpertSenderApi\Request\DataTablesDeleteRowPostRequest;
+use Pzelant\ExpertSenderApi\Request\DataTablesDeleteRowsPostRequest;
+use Pzelant\ExpertSenderApi\Request\DataTablesGetDataCountRequest;
+use Pzelant\ExpertSenderApi\Request\DataTablesGetDataPostRequest;
+use Pzelant\ExpertSenderApi\Request\DataTablesGetTablesRequest;
+use Pzelant\ExpertSenderApi\Request\DataTablesUpdateRowPostRequest;
+use Pzelant\ExpertSenderApi\Response\CountResponse;
+use Pzelant\ExpertSenderApi\Response\DataTablesGetTablesDetailsResponse;
+use Pzelant\ExpertSenderApi\Response\DataTablesGetTablesSummaryResponse;
+use Pzelant\ExpertSenderApi\ResponseInterface;
+use Pzelant\ExpertSenderApi\SpecificCsvMethodResponse;
 
 /**
  * Data tables resource
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class DataTablesResource extends AbstractResource
 {

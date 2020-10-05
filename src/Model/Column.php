@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Model;
+namespace Pzelant\ExpertSenderApi\Model;
 
 use Webmozart\Assert\Assert;
 
 /**
  * Column
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class Column
 {

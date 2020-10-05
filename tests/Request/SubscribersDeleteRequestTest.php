@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests\Request;
+namespace Pzelant\ExpertSenderApi\Tests\Request;
 
-use Citilink\ExpertSenderApi\Enum\HttpMethod;
-use Citilink\ExpertSenderApi\Request\SubscribersDeleteRequest;
+use Pzelant\ExpertSenderApi\Enum\HttpMethod;
+use Pzelant\ExpertSenderApi\Request\SubscribersDeleteRequest;
 use PHPUnit\Framework\Assert;
 
 class SubscribersDeleteRequestTest extends \PHPUnit_Framework_TestCase

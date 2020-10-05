@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Model\SubscribersPostRequest;
+namespace Pzelant\ExpertSenderApi\Model\SubscribersPostRequest;
 
-use Citilink\ExpertSenderApi\Enum\SubscribersPostRequest\Mode;
+use Pzelant\ExpertSenderApi\Enum\SubscribersPostRequest\Mode;
 
 /**
  * Subscriber data for add/edit subscriber request
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class SubscriberInfo
 {

@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Model\ActivitiesGetResponse;
+namespace Pzelant\ExpertSenderApi\Model\ActivitiesGetResponse;
 
-use Citilink\ExpertSenderApi\Enum\ActivitiesGetRequest\RemovalReason;
+use Pzelant\ExpertSenderApi\Enum\ActivitiesGetRequest\RemovalReason;
 
 /**
  * Removal activity
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class RemovalActivity extends AbstractActivity
 {

@@ -1,15 +1,15 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Model\DataTablesGetDataPostRequest;
+namespace Pzelant\ExpertSenderApi\Model\DataTablesGetDataPostRequest;
 
-use Citilink\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Direction;
+use Pzelant\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Direction;
 use Webmozart\Assert\Assert;
 
 /**
  * Order by rule to get table data
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class OrderByRule
 {

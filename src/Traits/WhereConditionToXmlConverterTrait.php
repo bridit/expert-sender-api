@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Traits;
+namespace Pzelant\ExpertSenderApi\Traits;
 
-use Citilink\ExpertSenderApi\Model\WhereCondition;
+use Pzelant\ExpertSenderApi\Model\WhereCondition;
 
 /**
  * Where condition to xml converter trait
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 trait WhereConditionToXmlConverterTrait
 {

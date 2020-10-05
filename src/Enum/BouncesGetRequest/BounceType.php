@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Enum\BouncesGetRequest;
+namespace Pzelant\ExpertSenderApi\Enum\BouncesGetRequest;
 
 use MyCLabs\Enum\Enum;
 
@@ -14,7 +14,7 @@ use MyCLabs\Enum\Enum;
  * @method static BounceType UNKNOWN()
  * @method static BounceType OTHER()
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class BounceType extends Enum
 {

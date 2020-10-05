@@ -1,16 +1,16 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests\Request;
+namespace Pzelant\ExpertSenderApi\Tests\Request;
 
-use Citilink\ExpertSenderApi\Enum\HttpMethod;
-use Citilink\ExpertSenderApi\Request\GetSegmentSizeGetRequest;
+use Pzelant\ExpertSenderApi\Enum\HttpMethod;
+use Pzelant\ExpertSenderApi\Request\GetSegmentSizeGetRequest;
 use PHPUnit\Framework\Assert;
 
 /**
  * GetSegmentSizeGetRequestTest
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class GetSegmentSizeGetRequestTest extends \PHPUnit_Framework_TestCase
 {

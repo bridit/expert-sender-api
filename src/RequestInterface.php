@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi;
+namespace Pzelant\ExpertSenderApi;
 
-use Citilink\ExpertSenderApi\Enum\HttpMethod;
+use Pzelant\ExpertSenderApi\Enum\HttpMethod;
 
 /**
  * ExpertSender API Request
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 interface RequestInterface
 {

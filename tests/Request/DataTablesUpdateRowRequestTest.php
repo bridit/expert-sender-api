@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests\Request;
+namespace Pzelant\ExpertSenderApi\Tests\Request;
 
-use Citilink\ExpertSenderApi\Enum\HttpMethod;
-use Citilink\ExpertSenderApi\Model\Column;
-use Citilink\ExpertSenderApi\Request\DataTablesUpdateRowPostRequest;
+use Pzelant\ExpertSenderApi\Enum\HttpMethod;
+use Pzelant\ExpertSenderApi\Model\Column;
+use Pzelant\ExpertSenderApi\Request\DataTablesUpdateRowPostRequest;
 use PHPUnit\Framework\Assert;
 
 class DataTablesUpdateRowRequestTest extends \PHPUnit_Framework_TestCase

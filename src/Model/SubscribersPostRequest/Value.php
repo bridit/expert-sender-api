@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Model\SubscribersPostRequest;
+namespace Pzelant\ExpertSenderApi\Model\SubscribersPostRequest;
 
-use Citilink\ExpertSenderApi\Enum\DataType;
+use Pzelant\ExpertSenderApi\Enum\DataType;
 
 /**
  * Value of property
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class Value
 {

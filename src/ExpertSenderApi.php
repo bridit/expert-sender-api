@@ -1,21 +1,21 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi;
+namespace Pzelant\ExpertSenderApi;
 
-use Citilink\ExpertSenderApi\Enum\BouncesGetRequest\BounceType;
-use Citilink\ExpertSenderApi\Request\BouncesGetRequest;
-use Citilink\ExpertSenderApi\Request\TimeGetRequest;
-use Citilink\ExpertSenderApi\Resource\DataTablesResource;
-use Citilink\ExpertSenderApi\Resource\MessagesResource;
-use Citilink\ExpertSenderApi\Resource\SubscribersResource;
-use Citilink\ExpertSenderApi\Response\BouncesGetResponse;
-use Citilink\ExpertSenderApi\Response\TimeGetResponse;
+use Pzelant\ExpertSenderApi\Enum\BouncesGetRequest\BounceType;
+use Pzelant\ExpertSenderApi\Request\BouncesGetRequest;
+use Pzelant\ExpertSenderApi\Request\TimeGetRequest;
+use Pzelant\ExpertSenderApi\Resource\DataTablesResource;
+use Pzelant\ExpertSenderApi\Resource\MessagesResource;
+use Pzelant\ExpertSenderApi\Resource\SubscribersResource;
+use Pzelant\ExpertSenderApi\Response\BouncesGetResponse;
+use Pzelant\ExpertSenderApi\Response\TimeGetResponse;
 
 /**
  * Expert Sender API
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class ExpertSenderApi
 {

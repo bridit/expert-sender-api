@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Exception;
+namespace Pzelant\ExpertSenderApi\Exception;
 
-use Citilink\ExpertSenderApi\ResponseInterface;
+use Pzelant\ExpertSenderApi\ResponseInterface;
 
 /**
  * Exception of get data on not success response
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class TryToAccessDataFromErrorResponseException extends ExpertSenderApiException
 {

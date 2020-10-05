@@ -1,22 +1,22 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests\Response;
+namespace Pzelant\ExpertSenderApi\Tests\Response;
 
-use Citilink\ExpertSenderApi\Enum\DataType;
-use Citilink\ExpertSenderApi\Enum\SubscriberPropertySource;
-use Citilink\ExpertSenderApi\Enum\SubscribersResponse\SubscriberPropertyType;
-use Citilink\ExpertSenderApi\Model\RemovedSubscribersGetResponse\RemovedSubscriber;
-use Citilink\ExpertSenderApi\Model\SubscriberData;
-use Citilink\ExpertSenderApi\Model\SubscribersGetResponse\SubscriberProperty;
-use Citilink\ExpertSenderApi\Response;
-use Citilink\ExpertSenderApi\Response\RemovedSubscribersGetResponse;
+use Pzelant\ExpertSenderApi\Enum\DataType;
+use Pzelant\ExpertSenderApi\Enum\SubscriberPropertySource;
+use Pzelant\ExpertSenderApi\Enum\SubscribersResponse\SubscriberPropertyType;
+use Pzelant\ExpertSenderApi\Model\RemovedSubscribersGetResponse\RemovedSubscriber;
+use Pzelant\ExpertSenderApi\Model\SubscriberData;
+use Pzelant\ExpertSenderApi\Model\SubscribersGetResponse\SubscriberProperty;
+use Pzelant\ExpertSenderApi\Response;
+use Pzelant\ExpertSenderApi\Response\RemovedSubscribersGetResponse;
 use PHPUnit\Framework\Assert;
 
 /**
  * RemovedSubscribersGetResponseTest
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class RemovedSubscribersGetResponseTest extends \PHPUnit_Framework_TestCase
 {

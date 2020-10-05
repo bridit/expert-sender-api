@@ -1,16 +1,16 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests\Response;
+namespace Pzelant\ExpertSenderApi\Tests\Response;
 
-use Citilink\ExpertSenderApi\Response;
-use Citilink\ExpertSenderApi\Response\CountResponse;
+use Pzelant\ExpertSenderApi\Response;
+use Pzelant\ExpertSenderApi\Response\CountResponse;
 use PHPUnit\Framework\Assert;
 
 /**
  * CountResponseTest
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class CountResponseTest extends \PHPUnit_Framework_TestCase
 {

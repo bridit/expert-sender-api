@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Model\SubscribersPostResponse;
+namespace Pzelant\ExpertSenderApi\Model\SubscribersPostResponse;
 
 /**
  * Subscriber info after add/edit
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class SubscriberData
 {

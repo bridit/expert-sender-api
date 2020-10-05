@@ -1,23 +1,23 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Resource;
+namespace Pzelant\ExpertSenderApi\Resource;
 
-use Citilink\ExpertSenderApi\AbstractResource;
-use Citilink\ExpertSenderApi\Model\TransactionalPostRequest\Attachment;
-use Citilink\ExpertSenderApi\Model\TransactionalPostRequest\Snippet;
-use Citilink\ExpertSenderApi\Model\TriggersPostRequest\Receiver;
-use Citilink\ExpertSenderApi\Model\TransactionalPostRequest\Receiver as TransactionalReceiver;
-use Citilink\ExpertSenderApi\Request\SystemTransactionalPostRequest;
-use Citilink\ExpertSenderApi\Request\TransactionalPostRequest;
-use Citilink\ExpertSenderApi\Request\TriggersPostRequest;
-use Citilink\ExpertSenderApi\Response\TransactionalPostResponse;
-use Citilink\ExpertSenderApi\ResponseInterface;
+use Pzelant\ExpertSenderApi\AbstractResource;
+use Pzelant\ExpertSenderApi\Model\TransactionalPostRequest\Attachment;
+use Pzelant\ExpertSenderApi\Model\TransactionalPostRequest\Snippet;
+use Pzelant\ExpertSenderApi\Model\TriggersPostRequest\Receiver;
+use Pzelant\ExpertSenderApi\Model\TransactionalPostRequest\Receiver as TransactionalReceiver;
+use Pzelant\ExpertSenderApi\Request\SystemTransactionalPostRequest;
+use Pzelant\ExpertSenderApi\Request\TransactionalPostRequest;
+use Pzelant\ExpertSenderApi\Request\TriggersPostRequest;
+use Pzelant\ExpertSenderApi\Response\TransactionalPostResponse;
+use Pzelant\ExpertSenderApi\ResponseInterface;
 
 /**
  * Messages resource
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class MessagesResource extends AbstractResource
 {

@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "pzelant\\ExpertSenderApi\\": "src/"
+            "Pzelant\\ExpertSenderApi\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4" : {
-            "pzelant\\ExpertSenderApi\\Tests\\": "tests/"
+            "Pzelant\\ExpertSenderApi\\Tests\\": "tests/"
         }
     },
     "scripts": {

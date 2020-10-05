@@ -1,18 +1,18 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Response;
+namespace Pzelant\ExpertSenderApi\Response;
 
-use Citilink\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
-use Citilink\ExpertSenderApi\Model\DataTablesGetTablesSummaryResponse\TableColumnData;
-use Citilink\ExpertSenderApi\Model\DataTablesGetTablesSummaryResponse\TableDetails;
-use Citilink\ExpertSenderApi\SpecificXmlMethodResponse;
-use Citilink\ExpertSenderApi\Utils;
+use Pzelant\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
+use Pzelant\ExpertSenderApi\Model\DataTablesGetTablesSummaryResponse\TableColumnData;
+use Pzelant\ExpertSenderApi\Model\DataTablesGetTablesSummaryResponse\TableDetails;
+use Pzelant\ExpertSenderApi\SpecificXmlMethodResponse;
+use Pzelant\ExpertSenderApi\Utils;
 
 /**
  * Response with details of table
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class DataTablesGetTablesDetailsResponse extends SpecificXmlMethodResponse
 {

@@ -1,26 +1,26 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Resource;
+namespace Pzelant\ExpertSenderApi\Resource;
 
-use Citilink\ExpertSenderApi\AbstractResource;
-use Citilink\ExpertSenderApi\Enum\ActivitiesGetRequest\ActivityType;
-use Citilink\ExpertSenderApi\Enum\ActivitiesGetRequest\ReturnColumnsSet;
-use Citilink\ExpertSenderApi\Request\ActivitiesGetRequest;
-use Citilink\ExpertSenderApi\Response\ActivitiesGetResponse\BouncesActivityGetResponse;
-use Citilink\ExpertSenderApi\Response\ActivitiesGetResponse\ClicksActivityGetResponse;
-use Citilink\ExpertSenderApi\Response\ActivitiesGetResponse\ComplaintsActivityGetResponse;
-use Citilink\ExpertSenderApi\Response\ActivitiesGetResponse\ConfirmationsActivityGetResponse;
-use Citilink\ExpertSenderApi\Response\ActivitiesGetResponse\GoalsActivityGetResponse;
-use Citilink\ExpertSenderApi\Response\ActivitiesGetResponse\OpensActivityGetResponse;
-use Citilink\ExpertSenderApi\Response\ActivitiesGetResponse\RemovalsActivityGetResponse;
-use Citilink\ExpertSenderApi\Response\ActivitiesGetResponse\SendsActivityGetResponse;
-use Citilink\ExpertSenderApi\Response\ActivitiesGetResponse\SubscriptionsActivityGetResponse;
+use Pzelant\ExpertSenderApi\AbstractResource;
+use Pzelant\ExpertSenderApi\Enum\ActivitiesGetRequest\ActivityType;
+use Pzelant\ExpertSenderApi\Enum\ActivitiesGetRequest\ReturnColumnsSet;
+use Pzelant\ExpertSenderApi\Request\ActivitiesGetRequest;
+use Pzelant\ExpertSenderApi\Response\ActivitiesGetResponse\BouncesActivityGetResponse;
+use Pzelant\ExpertSenderApi\Response\ActivitiesGetResponse\ClicksActivityGetResponse;
+use Pzelant\ExpertSenderApi\Response\ActivitiesGetResponse\ComplaintsActivityGetResponse;
+use Pzelant\ExpertSenderApi\Response\ActivitiesGetResponse\ConfirmationsActivityGetResponse;
+use Pzelant\ExpertSenderApi\Response\ActivitiesGetResponse\GoalsActivityGetResponse;
+use Pzelant\ExpertSenderApi\Response\ActivitiesGetResponse\OpensActivityGetResponse;
+use Pzelant\ExpertSenderApi\Response\ActivitiesGetResponse\RemovalsActivityGetResponse;
+use Pzelant\ExpertSenderApi\Response\ActivitiesGetResponse\SendsActivityGetResponse;
+use Pzelant\ExpertSenderApi\Response\ActivitiesGetResponse\SubscriptionsActivityGetResponse;
 
 /**
  * Subscriber activity resource
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class SubscriberActivityResource extends AbstractResource
 {

@@ -1,16 +1,16 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Event;
+namespace Pzelant\ExpertSenderApi\Event;
 
-use Citilink\ExpertSenderApi\RequestInterface;
+use Pzelant\ExpertSenderApi\RequestInterface;
 use GuzzleHttp\Exception\RequestException;
 use Symfony\Component\EventDispatcher\Event;
 
 /**
  * Event on exception thrown while making request
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class RequestExceptionThrown extends Event
 {

@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Enum;
+namespace Pzelant\ExpertSenderApi\Enum;
 
 use MyCLabs\Enum\Enum;
 
@@ -13,7 +13,7 @@ use MyCLabs\Enum\Enum;
  * @method static HttpMethod PUT()
  * @method static HttpMethod DELETE()
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 final class HttpMethod extends Enum
 {

@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Enum\SubscribersPostRequest;
+namespace Pzelant\ExpertSenderApi\Enum\SubscribersPostRequest;
 
 use MyCLabs\Enum\Enum;
 
@@ -15,7 +15,7 @@ use MyCLabs\Enum\Enum;
  * @method static Mode IGNORE_AND_REPLACE()
  * @method static Mode SYNCHRONIZE()
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 final class Mode extends Enum
 {

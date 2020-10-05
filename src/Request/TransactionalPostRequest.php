@@ -1,20 +1,20 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Request;
+namespace Pzelant\ExpertSenderApi\Request;
 
-use Citilink\ExpertSenderApi\Model\TransactionalPostRequest\Attachment;
-use Citilink\ExpertSenderApi\Model\TransactionalPostRequest\Snippet;
-use Citilink\ExpertSenderApi\Enum\HttpMethod;
-use Citilink\ExpertSenderApi\Model\TransactionalPostRequest\Receiver;
-use Citilink\ExpertSenderApi\RequestInterface;
-use Citilink\ExpertSenderApi\Utils;
+use Pzelant\ExpertSenderApi\Model\TransactionalPostRequest\Attachment;
+use Pzelant\ExpertSenderApi\Model\TransactionalPostRequest\Snippet;
+use Pzelant\ExpertSenderApi\Enum\HttpMethod;
+use Pzelant\ExpertSenderApi\Model\TransactionalPostRequest\Receiver;
+use Pzelant\ExpertSenderApi\RequestInterface;
+use Pzelant\ExpertSenderApi\Utils;
 use Webmozart\Assert\Assert;
 
 /**
  * Send transactional message request
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class TransactionalPostRequest implements RequestInterface
 {

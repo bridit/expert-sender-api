@@ -1,18 +1,18 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Request;
+namespace Pzelant\ExpertSenderApi\Request;
 
-use Citilink\ExpertSenderApi\Enum\HttpMethod;
-use Citilink\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\Option;
-use Citilink\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\RemoveType;
-use Citilink\ExpertSenderApi\RequestInterface;
+use Pzelant\ExpertSenderApi\Enum\HttpMethod;
+use Pzelant\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\Option;
+use Pzelant\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\RemoveType;
+use Pzelant\ExpertSenderApi\RequestInterface;
 use Webmozart\Assert\Assert;
 
 /**
  * Request for GET RemoveSubscribers
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class RemovedSubscriberGetRequest implements RequestInterface
 {

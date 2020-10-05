@@ -2,7 +2,7 @@
 =================
 **This repository is no longer supported. Looking for a new MAINTAINER**
 
-[![Build Status](https://travis-ci.org/citilinkru/expert-sender-api.svg?branch=master)](https://travis-ci.org/citilinkru/expert-sender-api)
+[![Build Status](https://travis-ci.org/Pzelantru/expert-sender-api.svg?branch=master)](https://travis-ci.org/Pzelantru/expert-sender-api)
 
 [PHP API](https://sites.google.com/a/expertsender.com/api-documentation/) for [Expert Sender](http://www.expertsender.com/)
 
@@ -52,7 +52,7 @@ _fork of [LinguaLeo/expert-sender-api](https://github.com/LinguaLeo/expert-sende
 ## Installation
 The recommended way to install is through [Composer](http://getcomposer.org).
 ```bash
-composer require citilink/expert-sender-api
+composer require Pzelant/expert-sender-api
 ```
 
 ## Usage
@@ -61,12 +61,12 @@ composer require citilink/expert-sender-api
 // ...
 
 use GuzzleHttp\Client;
-use Citilink\ExpertSenderApi\RequestSender;
-use Citilink\ExpertSenderApi\ExpertSenderApi;
-use Citilink\ExpertSenderApi\Model\SubscribersRequest\SubscriberInfo;
-use Citilink\ExpertSenderApi\Model\SubscribersRequest\Options;
-use Citilink\ExpertSenderApi\Model\SubscribersPostRequest\Identifier;
-use Citilink\ExpertSenderApi\Enum\SubscribersPostRequest\Mode;
+use Pzelant\ExpertSenderApi\RequestSender;
+use Pzelant\ExpertSenderApi\ExpertSenderApi;
+use Pzelant\ExpertSenderApi\Model\SubscribersRequest\SubscriberInfo;
+use Pzelant\ExpertSenderApi\Model\SubscribersRequest\Options;
+use Pzelant\ExpertSenderApi\Model\SubscribersPostRequest\Identifier;
+use Pzelant\ExpertSenderApi\Enum\SubscribersPostRequest\Mode;
 
 // ...
 
@@ -98,8 +98,8 @@ if ($addResult->isOk()) {
 ### Create API
 ```php
 use GuzzleHttp\Client;
-use Citilink\ExpertSenderApi\RequestSender;
-use Citilink\ExpertSenderApi\ExpertSenderApi;
+use Pzelant\ExpertSenderApi\RequestSender;
+use Pzelant\ExpertSenderApi\ExpertSenderApi;
 
 // ...
 
@@ -132,9 +132,9 @@ if ($response->isOk()) {
 ```php
 // ...
 
-use Citilink\ExpertSenderApi\Model\TransactionalPostRequest\Receiver;
-use Citilink\ExpertSenderApi\Model\TransactionalPostRequest\Snippet;
-use Citilink\ExpertSenderApi\Model\TransactionalPostRequest\Attachment;
+use Pzelant\ExpertSenderApi\Model\TransactionalPostRequest\Receiver;
+use Pzelant\ExpertSenderApi\Model\TransactionalPostRequest\Snippet;
+use Pzelant\ExpertSenderApi\Model\TransactionalPostRequest\Attachment;
 
 // ...
 
@@ -173,9 +173,9 @@ if ($response->isOk()) {
 ```php
 // ...
 
-use Citilink\ExpertSenderApi\Model\TransactionalPostRequest\Receiver;
-use Citilink\ExpertSenderApi\Model\TransactionalPostRequest\Snippet;
-use Citilink\ExpertSenderApi\Model\TransactionalPostRequest\Attachment;
+use Pzelant\ExpertSenderApi\Model\TransactionalPostRequest\Receiver;
+use Pzelant\ExpertSenderApi\Model\TransactionalPostRequest\Snippet;
+use Pzelant\ExpertSenderApi\Model\TransactionalPostRequest\Attachment;
 
 // ...
 
@@ -214,7 +214,7 @@ if ($response->isOk()) {
 ```php
 // ...
 
-use Citilink\ExpertSenderApi\Model\TriggersPostRequest\Receiver;
+use Pzelant\ExpertSenderApi\Model\TriggersPostRequest\Receiver;
 
 // ...
 
@@ -257,9 +257,9 @@ $eventsHistoryResponse = $api->subscribers()->getEventsHistory($subscriberEmail)
 ```php
 // ...
 
-use Citilink\ExpertSenderApi\Model\SubscribersPostRequest\Options;
-use Citilink\ExpertSenderApi\Model\SubscribersPostRequest\Identifier;
-use Citilink\ExpertSenderApi\Enum\SubscribersPostRequest\Mode;
+use Pzelant\ExpertSenderApi\Model\SubscribersPostRequest\Options;
+use Pzelant\ExpertSenderApi\Model\SubscribersPostRequest\Identifier;
+use Pzelant\ExpertSenderApi\Enum\SubscribersPostRequest\Mode;
 
 // ...
 
@@ -348,8 +348,8 @@ $api->subscribers()->deleteByEmail($subscriberEmail);
 ```php
 // ...
 
-use Citilink\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\RemoveType;
-use Citilink\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\Option;
+use Pzelant\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\RemoveType;
+use Pzelant\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\Option;
 
 // ...
 
@@ -514,7 +514,7 @@ if ($response->isOk()) {
 [documentation](https://sites.google.com/a/expertsender.com/api-documentation/methods/get-bounces-list)
 ```php
 // ...
-use Citilink\ExpertSenderApi\Enum\BouncesGetRequest\BounceType;
+use Pzelant\ExpertSenderApi\Enum\BouncesGetRequest\BounceType;
 // ...
 $startDate = new \DateTime('2015-01-01');
 $endDate = new \DateTime('2016-01-01');
@@ -579,10 +579,10 @@ if ($response->isOk()) {
 [documentation](https://sites.google.com/a/expertsender.com/api-documentation/methods/datatables/get-data)
 ```php
 // ...
-use Citilink\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Direction;
-use Citilink\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Operator;
-use Citilink\ExpertSenderApi\Model\WhereCondition;
-use Citilink\ExpertSenderApi\Model\DataTablesGetDataPostRequest\OrderByRule;
+use Pzelant\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Direction;
+use Pzelant\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Operator;
+use Pzelant\ExpertSenderApi\Model\WhereCondition;
+use Pzelant\ExpertSenderApi\Model\DataTablesGetDataPostRequest\OrderByRule;
 // ...
 // limit is optional, and null by default
 $limit = 30;
@@ -623,8 +623,8 @@ if ($response->isOk()) {
 [documentation](https://sites.google.com/a/expertsender.com/api-documentation/methods/datatables/count-rows)
 ```php
 // ...
-use Citilink\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Operator;
-use Citilink\ExpertSenderApi\Model\WhereCondition;
+use Pzelant\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Operator;
+use Pzelant\ExpertSenderApi\Model\WhereCondition;
 // ...
 $response = $api->dataTables()->getRowsCount(
     'table-name',
@@ -658,8 +658,8 @@ Use [add multiple rows method](#add-multiple-rows) to insert one row
 [documentation](https://sites.google.com/a/expertsender.com/api-documentation/methods/datatables/add-multiple-rows)
 ```php
 // ...
-use Citilink\ExpertSenderApi\Model\Column;
-use Citilink\ExpertSenderApi\Model\DataTablesAddMultipleRowsPostRequest\Row;
+use Pzelant\ExpertSenderApi\Model\Column;
+use Pzelant\ExpertSenderApi\Model\DataTablesAddMultipleRowsPostRequest\Row;
 // ...
 $response = $api->dataTables()->addRows(
     // table name to insert rows
@@ -698,7 +698,7 @@ if ($response->isOk()) {
 [documentation](https://sites.google.com/a/expertsender.com/api-documentation/methods/datatables/update-row)
 ```php
 // ...
-use Citilink\ExpertSenderApi\Model\Column;
+use Pzelant\ExpertSenderApi\Model\Column;
 // ...
 $response = $api->dataTables()->updateRow(
     // table name 
@@ -730,7 +730,7 @@ if ($response->isOk()) {
 [documentation](https://sites.google.com/a/expertsender.com/api-documentation/methods/datatables/delete-row)
 ```php
 // ...
-use Citilink\ExpertSenderApi\Model\Column;
+use Pzelant\ExpertSenderApi\Model\Column;
 // ...
 $response = $api->dataTables()->deleteOneRow(
     // table name to update rows
@@ -756,8 +756,8 @@ if ($response->isOk()) {
 [documentation](https://sites.google.com/a/expertsender.com/api-documentation/methods/datatables/delete-rows)
 ```php
 // ...
-use Citilink\ExpertSenderApi\Model\DataTablesDeleteRowsPostRequest\Filter;
-use Citilink\ExpertSenderApi\Enum\DataTablesDeleteRowsPostRequest\FilterOperator;
+use Pzelant\ExpertSenderApi\Model\DataTablesDeleteRowsPostRequest\Filter;
+use Pzelant\ExpertSenderApi\Enum\DataTablesDeleteRowsPostRequest\FilterOperator;
 // ...
 $response = $api->dataTables()->deleteRows(
     'table-name',

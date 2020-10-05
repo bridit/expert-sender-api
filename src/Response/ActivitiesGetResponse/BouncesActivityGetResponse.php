@@ -1,17 +1,17 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Response\ActivitiesGetResponse;
+namespace Pzelant\ExpertSenderApi\Response\ActivitiesGetResponse;
 
-use Citilink\ExpertSenderApi\Enum\ActivitiesGetRequest\BounceReason;
-use Citilink\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
-use Citilink\ExpertSenderApi\Model\ActivitiesGetResponse\BounceActivity;
-use Citilink\ExpertSenderApi\SpecificCsvMethodResponse;
+use Pzelant\ExpertSenderApi\Enum\ActivitiesGetRequest\BounceReason;
+use Pzelant\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
+use Pzelant\ExpertSenderApi\Model\ActivitiesGetResponse\BounceActivity;
+use Pzelant\ExpertSenderApi\SpecificCsvMethodResponse;
 
 /**
  * Bounces activity get response
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class BouncesActivityGetResponse extends SpecificCsvMethodResponse
 {

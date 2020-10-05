@@ -1,16 +1,16 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests\Response;
+namespace Pzelant\ExpertSenderApi\Tests\Response;
 
-use Citilink\ExpertSenderApi\Response;
-use Citilink\ExpertSenderApi\Response\SubscribersPostResponse;
+use Pzelant\ExpertSenderApi\Response;
+use Pzelant\ExpertSenderApi\Response\SubscribersPostResponse;
 use PHPUnit\Framework\Assert;
 
 /**
  * SubscribersPostResponseTest
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class SubscribersPostResponseTest extends \PHPUnit_Framework_TestCase
 {

@@ -1,16 +1,16 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Response\ActivitiesGetResponse;
+namespace Pzelant\ExpertSenderApi\Response\ActivitiesGetResponse;
 
-use Citilink\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
-use Citilink\ExpertSenderApi\Model\ActivitiesGetResponse\ConfirmationActivity;
-use Citilink\ExpertSenderApi\SpecificCsvMethodResponse;
+use Pzelant\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
+use Pzelant\ExpertSenderApi\Model\ActivitiesGetResponse\ConfirmationActivity;
+use Pzelant\ExpertSenderApi\SpecificCsvMethodResponse;
 
 /**
  * Response with confirmation activities
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class ConfirmationsActivityGetResponse extends SpecificCsvMethodResponse
 {

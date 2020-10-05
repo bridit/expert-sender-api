@@ -1,17 +1,17 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests\Response;
+namespace Pzelant\ExpertSenderApi\Tests\Response;
 
-use Citilink\ExpertSenderApi\Model\BouncesGetResponse\Bounce;
-use Citilink\ExpertSenderApi\Response;
-use Citilink\ExpertSenderApi\Response\BouncesGetResponse;
+use Pzelant\ExpertSenderApi\Model\BouncesGetResponse\Bounce;
+use Pzelant\ExpertSenderApi\Response;
+use Pzelant\ExpertSenderApi\Response\BouncesGetResponse;
 use PHPUnit\Framework\Assert;
 
 /**
  * BounceGetResponseTest
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class BounceGetResponseTest extends \PHPUnit_Framework_TestCase
 {

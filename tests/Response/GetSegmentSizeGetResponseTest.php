@@ -1,16 +1,16 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests\Response;
+namespace Pzelant\ExpertSenderApi\Tests\Response;
 
-use Citilink\ExpertSenderApi\Response;
-use Citilink\ExpertSenderApi\Response\GetSegmentSizeGetResponse;
+use Pzelant\ExpertSenderApi\Response;
+use Pzelant\ExpertSenderApi\Response\GetSegmentSizeGetResponse;
 use PHPUnit\Framework\Assert;
 
 /**
  * GetSegmentSizeGetResponseTest
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class GetSegmentSizeGetResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -46,7 +46,7 @@ class GetSegmentSizeGetResponseTest extends \PHPUnit_Framework_TestCase
     /**
      * Test
      *
-     * @expectedException \Citilink\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException
+     * @expectedException \Pzelant\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException
      */
     public function testGetSizeThrowsExceptionIfResponseIsNotOk()
     {
@@ -76,7 +76,7 @@ class GetSegmentSizeGetResponseTest extends \PHPUnit_Framework_TestCase
     /**
      * Test
      *
-     * @expectedException \Citilink\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException
+     * @expectedException \Pzelant\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException
      */
     public function testGetCountDateThrowsExceptionIfResponseIsNotOk()
     {

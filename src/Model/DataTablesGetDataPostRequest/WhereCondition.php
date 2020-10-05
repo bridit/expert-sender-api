@@ -1,18 +1,18 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Model\DataTablesGetDataPostRequest;
+namespace Pzelant\ExpertSenderApi\Model\DataTablesGetDataPostRequest;
 
-use Citilink\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Operator;
+use Pzelant\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Operator;
 
 /**
  * Where condition
  *
- * @deprecated Use {@see \Citilink\ExpertSenderApi\Model\WhereCondition} instead
+ * @deprecated Use {@see \Pzelant\ExpertSenderApi\Model\WhereCondition} instead
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
-class WhereCondition extends \Citilink\ExpertSenderApi\Model\WhereCondition
+class WhereCondition extends \Pzelant\ExpertSenderApi\Model\WhereCondition
 {
     /**
      * Constructor.
@@ -23,7 +23,7 @@ class WhereCondition extends \Citilink\ExpertSenderApi\Model\WhereCondition
      */
     public function __construct($columnName, Operator $operator, $value)
     {
-        @trigger_error('use \Citilink\ExpertSenderApi\Model\WhereCondition instead', E_USER_DEPRECATED);
+        @trigger_error('use \Pzelant\ExpertSenderApi\Model\WhereCondition instead', E_USER_DEPRECATED);
 
         parent::__construct($columnName, $operator, $value);
     }

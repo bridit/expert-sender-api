@@ -1,19 +1,19 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi;
+namespace Pzelant\ExpertSenderApi;
 
-use Citilink\ExpertSenderApi\Enum\SubscriberPropertySource;
-use Citilink\ExpertSenderApi\Enum\SubscribersResponse\SubscriberPropertyType;
-use Citilink\ExpertSenderApi\Exception\ParseResponseException;
-use Citilink\ExpertSenderApi\Model\SubscriberData;
-use Citilink\ExpertSenderApi\Model\SubscribersGetResponse\SubscriberProperty;
-use Citilink\ExpertSenderApi\Model\SubscribersGetResponse\SubscriberPropertyValue;
+use Pzelant\ExpertSenderApi\Enum\SubscriberPropertySource;
+use Pzelant\ExpertSenderApi\Enum\SubscribersResponse\SubscriberPropertyType;
+use Pzelant\ExpertSenderApi\Exception\ParseResponseException;
+use Pzelant\ExpertSenderApi\Model\SubscriberData;
+use Pzelant\ExpertSenderApi\Model\SubscribersGetResponse\SubscriberProperty;
+use Pzelant\ExpertSenderApi\Model\SubscribersGetResponse\SubscriberPropertyValue;
 
 /**
  * Subscriber data parser
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class SubscriberDataParser
 {

@@ -1,18 +1,18 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Response;
+namespace Pzelant\ExpertSenderApi\Response;
 
-use Citilink\ExpertSenderApi\Enum\SubscribersResponse\StateOnListStatus;
-use Citilink\ExpertSenderApi\Exception\ParseResponseException;
-use Citilink\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
-use Citilink\ExpertSenderApi\Model\SubscribersGetResponse\StateOnList;
-use Citilink\ExpertSenderApi\SpecificXmlMethodResponse;
+use Pzelant\ExpertSenderApi\Enum\SubscribersResponse\StateOnListStatus;
+use Pzelant\ExpertSenderApi\Exception\ParseResponseException;
+use Pzelant\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
+use Pzelant\ExpertSenderApi\Model\SubscribersGetResponse\StateOnList;
+use Pzelant\ExpertSenderApi\SpecificXmlMethodResponse;
 
 /**
  * Short information about subscriber
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class SubscribersGetShortResponse extends SpecificXmlMethodResponse
 {

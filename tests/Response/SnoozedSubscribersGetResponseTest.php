@@ -1,18 +1,18 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests\Response;
+namespace Pzelant\ExpertSenderApi\Tests\Response;
 
-use Citilink\ExpertSenderApi\Model\SnoozedSubscribersGetResponse\SnoozedSubscriber;
-use Citilink\ExpertSenderApi\Response;
-use Citilink\ExpertSenderApi\Response\SnoozedSubscribersGetResponse;
+use Pzelant\ExpertSenderApi\Model\SnoozedSubscribersGetResponse\SnoozedSubscriber;
+use Pzelant\ExpertSenderApi\Response;
+use Pzelant\ExpertSenderApi\Response\SnoozedSubscribersGetResponse;
 use function iter\toArray;
 use PHPUnit\Framework\Assert;
 
 /**
  * SnoozedSubscribersGetResponseTest
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class SnoozedSubscribersGetResponseTest extends \PHPUnit_Framework_TestCase
 {

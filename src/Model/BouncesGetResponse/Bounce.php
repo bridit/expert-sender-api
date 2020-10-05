@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Model\BouncesGetResponse;
+namespace Pzelant\ExpertSenderApi\Model\BouncesGetResponse;
 
-use Citilink\ExpertSenderApi\Enum\BouncesGetResponse\BounceType;
+use Pzelant\ExpertSenderApi\Enum\BouncesGetResponse\BounceType;
 
 /**
  * Bounce
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class Bounce
 {

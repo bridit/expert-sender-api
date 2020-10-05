@@ -1,21 +1,21 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests\Response;
+namespace Pzelant\ExpertSenderApi\Tests\Response;
 
-use Citilink\ExpertSenderApi\Enum\SubscribersResponse\StateOnListStatus;
-use Citilink\ExpertSenderApi\Enum\SubscriberPropertySource;
-use Citilink\ExpertSenderApi\Enum\SubscribersResponse\SubscriberPropertyType;
-use Citilink\ExpertSenderApi\Enum\DataType;
-use Citilink\ExpertSenderApi\Model\SubscribersGetResponse\SubscriberProperty;
-use Citilink\ExpertSenderApi\Response;
-use Citilink\ExpertSenderApi\Response\SubscribersGetFullResponse;
+use Pzelant\ExpertSenderApi\Enum\SubscribersResponse\StateOnListStatus;
+use Pzelant\ExpertSenderApi\Enum\SubscriberPropertySource;
+use Pzelant\ExpertSenderApi\Enum\SubscribersResponse\SubscriberPropertyType;
+use Pzelant\ExpertSenderApi\Enum\DataType;
+use Pzelant\ExpertSenderApi\Model\SubscribersGetResponse\SubscriberProperty;
+use Pzelant\ExpertSenderApi\Response;
+use Pzelant\ExpertSenderApi\Response\SubscribersGetFullResponse;
 use PHPUnit\Framework\Assert;
 
 /**
  * SubscribersGetResponseTest
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class SubscribersGetResponseTest extends \PHPUnit_Framework_TestCase
 {

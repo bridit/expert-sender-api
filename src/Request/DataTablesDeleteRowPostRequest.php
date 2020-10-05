@@ -1,18 +1,18 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Request;
+namespace Pzelant\ExpertSenderApi\Request;
 
-use Citilink\ExpertSenderApi\Enum\HttpMethod;
-use Citilink\ExpertSenderApi\Model\Column;
-use Citilink\ExpertSenderApi\RequestInterface;
-use Citilink\ExpertSenderApi\Traits\ColumnToXmlConverterTrait;
+use Pzelant\ExpertSenderApi\Enum\HttpMethod;
+use Pzelant\ExpertSenderApi\Model\Column;
+use Pzelant\ExpertSenderApi\RequestInterface;
+use Pzelant\ExpertSenderApi\Traits\ColumnToXmlConverterTrait;
 use Webmozart\Assert\Assert;
 
 /**
  * Request for POST /Api/DataTablesDeleteRow
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class DataTablesDeleteRowPostRequest implements RequestInterface
 {

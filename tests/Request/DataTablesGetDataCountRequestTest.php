@@ -1,18 +1,18 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests\Request;
+namespace Pzelant\ExpertSenderApi\Tests\Request;
 
-use Citilink\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Operator;
-use Citilink\ExpertSenderApi\Enum\HttpMethod;
-use Citilink\ExpertSenderApi\Model\WhereCondition;
-use Citilink\ExpertSenderApi\Request\DataTablesGetDataCountRequest;
+use Pzelant\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Operator;
+use Pzelant\ExpertSenderApi\Enum\HttpMethod;
+use Pzelant\ExpertSenderApi\Model\WhereCondition;
+use Pzelant\ExpertSenderApi\Request\DataTablesGetDataCountRequest;
 use PHPUnit\Framework\Assert;
 
 /**
  * DataTablesGetDataCountRequestTest
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class DataTablesGetDataCountRequestTest extends \PHPUnit_Framework_TestCase
 {

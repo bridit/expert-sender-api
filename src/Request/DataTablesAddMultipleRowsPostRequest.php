@@ -1,17 +1,17 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Request;
+namespace Pzelant\ExpertSenderApi\Request;
 
-use Citilink\ExpertSenderApi\Enum\HttpMethod;
-use Citilink\ExpertSenderApi\Model\DataTablesAddMultipleRowsPostRequest\Row;
-use Citilink\ExpertSenderApi\RequestInterface;
-use Citilink\ExpertSenderApi\Traits\ColumnToXmlConverterTrait;
+use Pzelant\ExpertSenderApi\Enum\HttpMethod;
+use Pzelant\ExpertSenderApi\Model\DataTablesAddMultipleRowsPostRequest\Row;
+use Pzelant\ExpertSenderApi\RequestInterface;
+use Pzelant\ExpertSenderApi\Traits\ColumnToXmlConverterTrait;
 
 /**
  * Request for POST DataTablesAddMultipleRows
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class DataTablesAddMultipleRowsPostRequest implements RequestInterface
 {

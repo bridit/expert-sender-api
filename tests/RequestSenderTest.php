@@ -1,17 +1,17 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests;
+namespace Pzelant\ExpertSenderApi\Tests;
 
-use Citilink\ExpertSenderApi\Enum\SubscribersGetRequest\DataOption;
-use Citilink\ExpertSenderApi\Event\RequestExceptionThrown;
-use Citilink\ExpertSenderApi\Event\ResponseReceivedEvent;
-use Citilink\ExpertSenderApi\Model\ErrorMessage;
-use Citilink\ExpertSenderApi\Model\SubscribersPostRequest\Identifier;
-use Citilink\ExpertSenderApi\Model\SubscribersPostRequest\SubscriberInfo;
-use Citilink\ExpertSenderApi\Request\SubscribersGetRequest;
-use Citilink\ExpertSenderApi\Request\SubscribersPostRequest;
-use Citilink\ExpertSenderApi\RequestSender;
+use Pzelant\ExpertSenderApi\Enum\SubscribersGetRequest\DataOption;
+use Pzelant\ExpertSenderApi\Event\RequestExceptionThrown;
+use Pzelant\ExpertSenderApi\Event\ResponseReceivedEvent;
+use Pzelant\ExpertSenderApi\Model\ErrorMessage;
+use Pzelant\ExpertSenderApi\Model\SubscribersPostRequest\Identifier;
+use Pzelant\ExpertSenderApi\Model\SubscribersPostRequest\SubscriberInfo;
+use Pzelant\ExpertSenderApi\Request\SubscribersGetRequest;
+use Pzelant\ExpertSenderApi\Request\SubscribersPostRequest;
+use Pzelant\ExpertSenderApi\RequestSender;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ConnectException;
 use GuzzleHttp\Exception\RequestException;
@@ -26,7 +26,7 @@ use Symfony\Component\EventDispatcher\EventDispatcher;
 /**
  * RequestSenderTest
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class RequestSenderTest extends \PHPUnit_Framework_TestCase
 {

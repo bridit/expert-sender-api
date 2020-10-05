@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Model\SegmentsGetResponse;
+namespace Pzelant\ExpertSenderApi\Model\SegmentsGetResponse;
 
 /**
  * Segment
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class Segment
 {

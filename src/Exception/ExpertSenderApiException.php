@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Exception;
+namespace Pzelant\ExpertSenderApi\Exception;
 
 /**
  * ExpertSender API Exception
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class ExpertSenderApiException extends \RuntimeException
 {

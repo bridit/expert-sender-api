@@ -1,18 +1,18 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests\Response\ActivitiesGetResponse;
+namespace Pzelant\ExpertSenderApi\Tests\Response\ActivitiesGetResponse;
 
-use Citilink\ExpertSenderApi\Enum\ActivitiesGetRequest\RemovalReason;
-use Citilink\ExpertSenderApi\Model\ActivitiesGetResponse\RemovalActivity;
-use Citilink\ExpertSenderApi\Response;
+use Pzelant\ExpertSenderApi\Enum\ActivitiesGetRequest\RemovalReason;
+use Pzelant\ExpertSenderApi\Model\ActivitiesGetResponse\RemovalActivity;
+use Pzelant\ExpertSenderApi\Response;
 use function iter\toArray;
 use PHPUnit\Framework\Assert;
 
 /**
  * RemovalsActivityGetResponseTest
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class RemovalsActivityGetResponseTest extends \PHPUnit_Framework_TestCase
 {

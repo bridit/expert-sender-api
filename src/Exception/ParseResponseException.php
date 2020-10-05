@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Exception;
+namespace Pzelant\ExpertSenderApi\Exception;
 
-use Citilink\ExpertSenderApi\ResponseInterface;
+use Pzelant\ExpertSenderApi\ResponseInterface;
 
 /**
  * Exception while parse ExpertSender API's response
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class ParseResponseException extends ExpertSenderApiException
 {

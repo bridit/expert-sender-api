@@ -1,18 +1,18 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests\Request;
+namespace Pzelant\ExpertSenderApi\Tests\Request;
 
-use Citilink\ExpertSenderApi\Enum\ActivitiesGetRequest\ActivityType;
-use Citilink\ExpertSenderApi\Enum\ActivitiesGetRequest\ReturnColumnsSet;
-use Citilink\ExpertSenderApi\Enum\HttpMethod;
-use Citilink\ExpertSenderApi\Request\ActivitiesGetRequest;
+use Pzelant\ExpertSenderApi\Enum\ActivitiesGetRequest\ActivityType;
+use Pzelant\ExpertSenderApi\Enum\ActivitiesGetRequest\ReturnColumnsSet;
+use Pzelant\ExpertSenderApi\Enum\HttpMethod;
+use Pzelant\ExpertSenderApi\Request\ActivitiesGetRequest;
 use PHPUnit\Framework\Assert;
 
 /**
  * ActivitiesGetRequestTest
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class ActivitiesGetRequestTest extends \PHPUnit_Framework_TestCase
 {

@@ -1,16 +1,16 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Model\SubscribersGetResponse;
+namespace Pzelant\ExpertSenderApi\Model\SubscribersGetResponse;
 
-use Citilink\ExpertSenderApi\Enum\SubscriberPropertySource;
-use Citilink\ExpertSenderApi\Enum\SubscribersResponse\SubscriberPropertyType;
+use Pzelant\ExpertSenderApi\Enum\SubscriberPropertySource;
+use Pzelant\ExpertSenderApi\Enum\SubscribersResponse\SubscriberPropertyType;
 use Webmozart\Assert\Assert;
 
 /**
  * Subscriber property
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class SubscriberProperty
 {

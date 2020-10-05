@@ -1,17 +1,17 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests\Request;
+namespace Pzelant\ExpertSenderApi\Tests\Request;
 
-use Citilink\ExpertSenderApi\Enum\HttpMethod;
-use Citilink\ExpertSenderApi\Model\TriggersPostRequest\Receiver;
-use Citilink\ExpertSenderApi\Request\TriggersPostRequest;
+use Pzelant\ExpertSenderApi\Enum\HttpMethod;
+use Pzelant\ExpertSenderApi\Model\TriggersPostRequest\Receiver;
+use Pzelant\ExpertSenderApi\Request\TriggersPostRequest;
 use PHPUnit\Framework\Assert;
 
 /**
  * TriggersPostRequestTest
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class TriggersPostRequestTest extends \PHPUnit_Framework_TestCase
 {

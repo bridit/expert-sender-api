@@ -1,16 +1,16 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests\Request;
+namespace Pzelant\ExpertSenderApi\Tests\Request;
 
-use Citilink\ExpertSenderApi\Enum\HttpMethod;
-use Citilink\ExpertSenderApi\Model\SubscribersPostRequest\Identifier;
-use Citilink\ExpertSenderApi\Model\SubscribersPostRequest\Property;
-use Citilink\ExpertSenderApi\Model\SubscribersPostRequest\Value;
-use Citilink\ExpertSenderApi\Enum\SubscribersPostRequest\Mode;
-use Citilink\ExpertSenderApi\Model\SubscribersPostRequest\Options;
-use Citilink\ExpertSenderApi\Model\SubscribersPostRequest\SubscriberInfo;
-use Citilink\ExpertSenderApi\Request\SubscribersPostRequest;
+use Pzelant\ExpertSenderApi\Enum\HttpMethod;
+use Pzelant\ExpertSenderApi\Model\SubscribersPostRequest\Identifier;
+use Pzelant\ExpertSenderApi\Model\SubscribersPostRequest\Property;
+use Pzelant\ExpertSenderApi\Model\SubscribersPostRequest\Value;
+use Pzelant\ExpertSenderApi\Enum\SubscribersPostRequest\Mode;
+use Pzelant\ExpertSenderApi\Model\SubscribersPostRequest\Options;
+use Pzelant\ExpertSenderApi\Model\SubscribersPostRequest\SubscriberInfo;
+use Pzelant\ExpertSenderApi\Request\SubscribersPostRequest;
 use PHPUnit\Framework\Assert;
 
 class SubscribersPostRequestTest extends \PHPUnit_Framework_TestCase

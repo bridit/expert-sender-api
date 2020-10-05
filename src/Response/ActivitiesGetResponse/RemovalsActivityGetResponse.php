@@ -1,17 +1,17 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Response\ActivitiesGetResponse;
+namespace Pzelant\ExpertSenderApi\Response\ActivitiesGetResponse;
 
-use Citilink\ExpertSenderApi\Enum\ActivitiesGetRequest\RemovalReason;
-use Citilink\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
-use Citilink\ExpertSenderApi\Model\ActivitiesGetResponse\RemovalActivity;
-use Citilink\ExpertSenderApi\SpecificCsvMethodResponse;
+use Pzelant\ExpertSenderApi\Enum\ActivitiesGetRequest\RemovalReason;
+use Pzelant\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
+use Pzelant\ExpertSenderApi\Model\ActivitiesGetResponse\RemovalActivity;
+use Pzelant\ExpertSenderApi\SpecificCsvMethodResponse;
 
 /**
  * Removals activity get response
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class RemovalsActivityGetResponse extends SpecificCsvMethodResponse
 {

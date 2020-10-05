@@ -1,38 +1,38 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Resource;
+namespace Pzelant\ExpertSenderApi\Resource;
 
-use Citilink\ExpertSenderApi\AbstractResource;
-use Citilink\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\Option;
-use Citilink\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\RemoveType;
-use Citilink\ExpertSenderApi\Enum\SubscribersGetRequest\DataOption;
-use Citilink\ExpertSenderApi\Model\SubscribersPostRequest\Options;
-use Citilink\ExpertSenderApi\Model\SubscribersPostRequest\SubscriberInfo;
-use Citilink\ExpertSenderApi\Request\GetSegmentSizeGetRequest;
-use Citilink\ExpertSenderApi\Request\RemovedSubscriberGetRequest;
-use Citilink\ExpertSenderApi\Request\SegmentsGetRequest;
-use Citilink\ExpertSenderApi\Request\SnoozedSubscribersGetRequest;
-use Citilink\ExpertSenderApi\Request\SnoozedSubscribersPostRequest;
-use Citilink\ExpertSenderApi\Request\SubscribersDeleteRequest;
-use Citilink\ExpertSenderApi\Request\SubscribersGetRequest;
-use Citilink\ExpertSenderApi\Request\SubscribersPostRequest;
-use Citilink\ExpertSenderApi\RequestSenderInterface;
-use Citilink\ExpertSenderApi\Response\GetSegmentSizeGetResponse;
-use Citilink\ExpertSenderApi\Response\RemovedSubscribersGetResponse;
-use Citilink\ExpertSenderApi\Response\SegmentsGetResponse;
-use Citilink\ExpertSenderApi\Response\SnoozedSubscribersGetResponse;
-use Citilink\ExpertSenderApi\Response\SubscribersGetEventsHistoryResponse;
-use Citilink\ExpertSenderApi\Response\SubscribersGetFullResponse;
-use Citilink\ExpertSenderApi\Response\SubscribersGetLongResponse;
-use Citilink\ExpertSenderApi\Response\SubscribersGetShortResponse;
-use Citilink\ExpertSenderApi\Response\SubscribersPostResponse;
-use Citilink\ExpertSenderApi\ResponseInterface;
+use Pzelant\ExpertSenderApi\AbstractResource;
+use Pzelant\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\Option;
+use Pzelant\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\RemoveType;
+use Pzelant\ExpertSenderApi\Enum\SubscribersGetRequest\DataOption;
+use Pzelant\ExpertSenderApi\Model\SubscribersPostRequest\Options;
+use Pzelant\ExpertSenderApi\Model\SubscribersPostRequest\SubscriberInfo;
+use Pzelant\ExpertSenderApi\Request\GetSegmentSizeGetRequest;
+use Pzelant\ExpertSenderApi\Request\RemovedSubscriberGetRequest;
+use Pzelant\ExpertSenderApi\Request\SegmentsGetRequest;
+use Pzelant\ExpertSenderApi\Request\SnoozedSubscribersGetRequest;
+use Pzelant\ExpertSenderApi\Request\SnoozedSubscribersPostRequest;
+use Pzelant\ExpertSenderApi\Request\SubscribersDeleteRequest;
+use Pzelant\ExpertSenderApi\Request\SubscribersGetRequest;
+use Pzelant\ExpertSenderApi\Request\SubscribersPostRequest;
+use Pzelant\ExpertSenderApi\RequestSenderInterface;
+use Pzelant\ExpertSenderApi\Response\GetSegmentSizeGetResponse;
+use Pzelant\ExpertSenderApi\Response\RemovedSubscribersGetResponse;
+use Pzelant\ExpertSenderApi\Response\SegmentsGetResponse;
+use Pzelant\ExpertSenderApi\Response\SnoozedSubscribersGetResponse;
+use Pzelant\ExpertSenderApi\Response\SubscribersGetEventsHistoryResponse;
+use Pzelant\ExpertSenderApi\Response\SubscribersGetFullResponse;
+use Pzelant\ExpertSenderApi\Response\SubscribersGetLongResponse;
+use Pzelant\ExpertSenderApi\Response\SubscribersGetShortResponse;
+use Pzelant\ExpertSenderApi\Response\SubscribersPostResponse;
+use Pzelant\ExpertSenderApi\ResponseInterface;
 
 /**
  * Subscribers resource
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class SubscribersResource extends AbstractResource
 {

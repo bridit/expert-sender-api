@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Model\ActivitiesGetResponse;
+namespace Pzelant\ExpertSenderApi\Model\ActivitiesGetResponse;
 
 /**
  * Confirmation activity
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class ConfirmationActivity extends AbstractActivity
 {

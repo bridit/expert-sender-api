@@ -1,17 +1,17 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests\Response;
+namespace Pzelant\ExpertSenderApi\Tests\Response;
 
-use Citilink\ExpertSenderApi\Model\SegmentsGetResponse\Segment;
-use Citilink\ExpertSenderApi\Response;
-use Citilink\ExpertSenderApi\Response\SegmentsGetResponse;
+use Pzelant\ExpertSenderApi\Model\SegmentsGetResponse\Segment;
+use Pzelant\ExpertSenderApi\Response;
+use Pzelant\ExpertSenderApi\Response\SegmentsGetResponse;
 use function iter\toArray;
 
 /**
  * SegmentsGetResponseTest
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class SegmentsGetResponseTest extends \PHPUnit_Framework_TestCase
 {

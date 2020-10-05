@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests\Response;
+namespace Pzelant\ExpertSenderApi\Tests\Response;
 
-use Citilink\ExpertSenderApi\Model\DataTablesGetTablesSummaryResponse\TableColumnData;
-use Citilink\ExpertSenderApi\Response;
-use Citilink\ExpertSenderApi\Response\DataTablesGetTablesDetailsResponse;
+use Pzelant\ExpertSenderApi\Model\DataTablesGetTablesSummaryResponse\TableColumnData;
+use Pzelant\ExpertSenderApi\Response;
+use Pzelant\ExpertSenderApi\Response\DataTablesGetTablesDetailsResponse;
 use function iter\toArray;
 use PHPUnit\Framework\Assert;
 

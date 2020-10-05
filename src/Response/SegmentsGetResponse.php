@@ -1,15 +1,15 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Response;
+namespace Pzelant\ExpertSenderApi\Response;
 
-use Citilink\ExpertSenderApi\Model\SegmentsGetResponse\Segment;
-use Citilink\ExpertSenderApi\SpecificXmlMethodResponse;
+use Pzelant\ExpertSenderApi\Model\SegmentsGetResponse\Segment;
+use Pzelant\ExpertSenderApi\SpecificXmlMethodResponse;
 
 /**
  * Segments GET response
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
  */
 class SegmentsGetResponse extends SpecificXmlMethodResponse
 {
