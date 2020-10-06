@@ -1,4 +1,4 @@
-(UNSUPPORTED!) Expert Sender Api
+Expert Sender Api
 =================
 **This repository is no longer supported. Looking for a new MAINTAINER**
 
