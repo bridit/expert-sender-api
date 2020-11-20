@@ -54,27 +54,29 @@ class Receiver
     /**
      * Create receiver with email as identifier
      *
-     * @param string $email Subscriber email
+     * @param string   $email  Subscriber email
      * @param int|null $listId List ID
      *
+     * @param null|string $bcc
      * @return static Receiver of message
      */
-    public static function createWithEmail(string $email, int $listId = null)
+    public static function createWithEmail(string $email, int $listId = null, $bcc = null)
     {
-        return new static(null, $email, null, $listId);
+        return new static(null, $email, null, $listId, $bcc);
     }
 
     /**
      * Create receiver with md5 email as identifier
      *
-     * @param string $emailMd5 Md5 of subscriber email
-     * @param int|null $listId List ID
+     * @param string   $emailMd5 Md5 of subscriber email
+     * @param int|null $listId   List ID
      *
+     * @param null|string $bcc
      * @return static Receiver of message
      */
-    public static function createWithEmailMd5(string $emailMd5, int $listId = null)
+    public static function createWithEmailMd5(string $emailMd5, int $listId = null, $bcc = null)
     {
-        return new static(null, null, $emailMd5, $listId);
+        return new static(null, null, $emailMd5, $listId, $bcc);
     }
 
     /**
