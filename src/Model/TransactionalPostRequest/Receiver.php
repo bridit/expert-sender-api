@@ -33,16 +33,22 @@ class Receiver
     private $listId;
 
     /**
+     * @var string BCC
+     */
+    private $bcc;
+
+    /**
      * Create receiver with ID as identifier
      *
-     * @param int $id Subscriber ID
+     * @param int      $id     Subscriber ID
      * @param int|null $listId List ID
      *
+     * @param string|null $bcc
      * @return static Receiver of message
      */
-    public static function createWithId(int $id, int $listId = null)
+    public static function createWithId(int $id, int $listId = null, $bcc = null)
     {
-        return new static($id, null, null, $listId);
+        return new static($id, null, null, $listId, $bcc);
     }
 
     /**
@@ -74,18 +80,28 @@ class Receiver
     /**
      * Constructor
      *
-     * @param int|null $id Subscriber ID
-     * @param string|null $email Subscriber Email
+     * @param int|null    $id       Subscriber ID
+     * @param string|null $email    Subscriber Email
      * @param string|null $emailMd5 Md5 of subscriber email
-     * @param int|null $listId List ID
+     * @param int|null    $listId   List ID
+     * @param null|string $bcc
      */
-    private function __construct(int $id = null, string $email = null, string $emailMd5 = null, int $listId = null)
+    private function __construct(int $id = null, string $email = null, string $emailMd5 = null, int $listId = null, $bcc = null)
     {
         // not check anything, because constructor is private and nobody can create invalid object
         $this->id = $id;
         $this->email = $email;
         $this->listId = $listId;
         $this->emailMd5 = $emailMd5;
+        $this->bcc = $bcc;
+    }
+
+    /**
+     * @return string
+     */
+    public function getBcc(): ?string
+    {
+        return $this->bcc;
     }
 
     /**

@@ -91,6 +91,10 @@ class TransactionalPostRequest implements RequestInterface
             $xmlWriter->writeElement('EmailMd5', $this->receiver->getEmailMd5());
         }
 
+        if (!empty($this->receiver->getBcc())) {
+            $xmlWriter->writeElement('Bcc', $this->receiver->getBcc());
+        }
+
         if (!empty($this->receiver->getListId())) {
             $xmlWriter->writeElement('ListId', strval($this->receiver->getListId()));
         }
