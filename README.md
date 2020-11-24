@@ -51,7 +51,7 @@ _fork of [LinguaLeo/expert-sender-api](https://github.com/LinguaLeo/expert-sende
 ## Installation
 The recommended way to install is through [Composer](http://getcomposer.org).
 ```bash
-composer require Pzelant/expert-sender-api
+composer require pzelant/expert-sender-api
 ```
 
 ## Usage
