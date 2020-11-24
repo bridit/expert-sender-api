@@ -18,6 +18,11 @@ class SubscriberData
     private $id;
 
     /**
+     * @var string e-mail address
+     */
+    private $email;
+
+    /**
      * @var string Firstname
      */
     private $firstname;
@@ -45,11 +50,12 @@ class SubscriberData
     /**
      * Constructor
      *
-     * @param int $id ID
-     * @param string $firstname Firstname
-     * @param string $lastname Lastname
-     * @param string $ip IP
-     * @param string $vendor Vendor
+     * @param int                           $id         ID
+     * @param string                        $firstname  Firstname
+     * @param string                        $lastname   Lastname
+     * @param string                        $ip         IP
+     * @param string                        $vendor     Vendor
+     * @param string                        $email
      * @param SubscriberProperty[]|iterable $properties Properties
      */
     public function __construct(
@@ -58,6 +64,7 @@ class SubscriberData
         string $lastname,
         string $ip,
         string $vendor,
+        string $email,
         iterable $properties
     ) {
         $this->id = $id;
@@ -66,6 +73,7 @@ class SubscriberData
         $this->ip = $ip;
         $this->vendor = $vendor;
         $this->properties = $properties;
+        $this->email = $email;
     }
 
     /**
@@ -116,6 +124,14 @@ class SubscriberData
     public function getVendor(): string
     {
         return $this->vendor;
+    }
+
+    /**
+     * @return string
+     */
+    public function getEmail(): string
+    {
+        return $this->email;
     }
 
     /**

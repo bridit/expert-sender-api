@@ -3,12 +3,16 @@ declare(strict_types=1);
 
 namespace Pzelant\ExpertSenderApi;
 
+use DateTime;
+use Exception;
+use Generator;
 use Pzelant\ExpertSenderApi\Enum\SubscriberPropertySource;
 use Pzelant\ExpertSenderApi\Enum\SubscribersResponse\SubscriberPropertyType;
 use Pzelant\ExpertSenderApi\Exception\ParseResponseException;
 use Pzelant\ExpertSenderApi\Model\SubscriberData;
 use Pzelant\ExpertSenderApi\Model\SubscribersGetResponse\SubscriberProperty;
 use Pzelant\ExpertSenderApi\Model\SubscribersGetResponse\SubscriberPropertyValue;
+use SimpleXmlElement;
 
 /**
  * Subscriber data parser
@@ -20,11 +24,12 @@ class SubscriberDataParser
     /**
      * Parse xml element into subscriber's data object
      *
-     * @param \SimpleXMLElement $xml Xml element with subscriber data
+     * @param SimpleXMLElement $xml Xml element with subscriber data
      *
      * @return SubscriberData Subscriber's data
+     * @throws Exception
      */
-    public function parse(\SimpleXMLElement $xml)
+    public function parse(SimpleXMLElement $xml)
     {
         return new SubscriberData(
             intval($xml->Id),
@@ -32,6 +37,7 @@ class SubscriberDataParser
             strval($xml->Lastname),
             strval($xml->Ip),
             strval($xml->Vendor),
+            strval($xml->Email),
             $this->getProperties($xml)
         );
     }
@@ -39,11 +45,12 @@ class SubscriberDataParser
     /**
      * Get subscriber properties
      *
-     * @param \SimpleXmlElement $xml Xml element with properties
+     * @param SimpleXmlElement $xml Xml element with properties
      *
-     * @return SubscriberProperty[]|\Generator Properties
+     * @return SubscriberProperty[]|Generator Properties
+     * @throws Exception
      */
-    private function getProperties(\SimpleXmlElement $xml): \Generator
+    private function getProperties(SimpleXmlElement $xml): Generator
     {
         $nodes = $xml->xpath('Properties/Property');
         foreach ($nodes as $node) {
@@ -80,8 +87,8 @@ class SubscriberDataParser
                 case SubscriberPropertyType::DATE:
                 case SubscriberPropertyType::DATETIME:
                     $value = SubscriberPropertyValue::createDatetime(
-                        new \DateTime(strval($node->DateTimeValue)),
-                        new \DateTime(strval($node->DefaultDateTimeValue))
+                        new DateTime(strval($node->DateTimeValue)),
+                        new DateTime(strval($node->DefaultDateTimeValue))
                     );
                     break;
                 default:

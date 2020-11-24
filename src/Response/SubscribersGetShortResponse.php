@@ -40,6 +40,7 @@ class SubscribersGetShortResponse extends SpecificXmlMethodResponse
      * Get all state on list
      *
      * @return StateOnList[] States on list
+     * @throws \Exception
      */
     public function getStateOnLists(): array
     {
