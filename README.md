@@ -1,6 +1,5 @@
 Expert Sender Api
 =================
-**This repository is no longer supported. Looking for a new MAINTAINER**
 
 [![Build Status](https://travis-ci.org/Pzelantru/expert-sender-api.svg?branch=master)](https://travis-ci.org/Pzelantru/expert-sender-api)
 
