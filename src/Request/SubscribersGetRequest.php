@@ -67,6 +67,10 @@ class SubscribersGetRequest implements RequestInterface
      */
     public function getQueryParams(): array
     {
+        if(is_numeric($this->email)) {
+            return ['id'=> $this->email, 'option' => $this->option->getValue()];
+        }
+
         return ['email' => $this->email, 'option' => $this->option->getValue()];
     }
 }
