@@ -50,12 +50,12 @@ class SubscriberData
     /**
      * Constructor
      *
-     * @param int                           $id         ID
-     * @param string                        $firstname  Firstname
-     * @param string                        $lastname   Lastname
-     * @param string                        $ip         IP
-     * @param string                        $vendor     Vendor
-     * @param string                        $email
+     * @param int    $id         ID
+     * @param string $firstname  Firstname
+     * @param string $lastname   Lastname
+     * @param string $ip         IP
+     * @param string $vendor     Vendor
+     * @param string $email
      * @param SubscriberProperty[]|iterable $properties Properties
      */
     public function __construct(
