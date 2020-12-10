@@ -10,7 +10,7 @@ use Pzelant\ExpertSenderApi\SpecificCsvMethodResponse;
 /**
  * Complaint activity get response
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class ComplaintsActivityGetResponse extends SpecificCsvMethodResponse
 {

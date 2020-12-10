@@ -11,7 +11,7 @@ use Webmozart\Assert\Assert;
 /**
  * Request for get subscriber info
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class SubscribersGetRequest implements RequestInterface
 {

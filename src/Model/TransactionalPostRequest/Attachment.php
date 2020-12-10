@@ -8,7 +8,7 @@ use Webmozart\Assert\Assert;
 /**
  * Attachment
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class Attachment
 {

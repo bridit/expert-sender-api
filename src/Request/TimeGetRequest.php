@@ -9,7 +9,7 @@ use Pzelant\ExpertSenderApi\RequestInterface;
 /**
  * Request to get server time
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class TimeGetRequest implements RequestInterface
 {

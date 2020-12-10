@@ -20,7 +20,7 @@ use Pzelant\ExpertSenderApi\Response\ActivitiesGetResponse\SubscriptionsActivity
 /**
  * Subscriber activity resource
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class SubscriberActivityResource extends AbstractResource
 {

@@ -6,7 +6,7 @@ namespace Pzelant\ExpertSenderApi;
 /**
  * Expert Sender request sender
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 interface RequestSenderInterface
 {

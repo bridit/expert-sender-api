@@ -6,7 +6,7 @@ namespace Pzelant\ExpertSenderApi\Exception;
 /**
  * ExpertSender API Exception
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class ExpertSenderApiException extends \RuntimeException
 {

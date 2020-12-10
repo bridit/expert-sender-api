@@ -15,7 +15,7 @@ use MyCLabs\Enum\Enum;
  * @method static Mode IGNORE_AND_REPLACE()
  * @method static Mode SYNCHRONIZE()
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 final class Mode extends Enum
 {

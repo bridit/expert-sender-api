@@ -11,7 +11,7 @@ use PHPUnit\Framework\Assert;
 /**
  * SubscribersGetEventsHistoryResponseTest
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class SubscribersGetEventsHistoryResponseTest extends \PHPUnit_Framework_TestCase
 {

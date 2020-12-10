@@ -10,7 +10,7 @@ use Webmozart\Assert\Assert;
 /**
  * Request to get snoozed subscribers
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class SnoozedSubscribersGetRequest implements RequestInterface
 {

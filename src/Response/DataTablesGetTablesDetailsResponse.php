@@ -12,7 +12,7 @@ use Pzelant\ExpertSenderApi\Utils;
 /**
  * Response with details of table
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class DataTablesGetTablesDetailsResponse extends SpecificXmlMethodResponse
 {

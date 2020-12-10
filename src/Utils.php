@@ -8,7 +8,7 @@ use Pzelant\ExpertSenderApi\Exception\NotValidXmlException;
 /**
  * Utils
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class Utils
 {

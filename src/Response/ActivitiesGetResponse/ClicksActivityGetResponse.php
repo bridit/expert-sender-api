@@ -10,7 +10,7 @@ use Pzelant\ExpertSenderApi\SpecificCsvMethodResponse;
 /**
  * Response with clicks activity
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class ClicksActivityGetResponse extends SpecificCsvMethodResponse
 {

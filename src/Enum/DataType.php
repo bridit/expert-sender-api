@@ -16,7 +16,7 @@ use MyCLabs\Enum\Enum;
  * @method static DataType DOUBLE()
  * @method static DataType DECIMAL()
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 final class DataType extends Enum
 {

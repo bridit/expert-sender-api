@@ -9,7 +9,7 @@ use Pzelant\ExpertSenderApi\RequestInterface;
 /**
  * Request for delete subscriber
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class SubscribersDeleteRequest implements RequestInterface
 {

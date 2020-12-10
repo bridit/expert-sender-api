@@ -9,7 +9,7 @@ use Webmozart\Assert\Assert;
 /**
  * Row
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class Row
 {

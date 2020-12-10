@@ -13,7 +13,7 @@ use PHPUnit\Framework\Assert;
 /**
  * BouncesActivityGetResponseTest
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class BouncesActivityGetResponseTest extends \PHPUnit_Framework_TestCase
 {

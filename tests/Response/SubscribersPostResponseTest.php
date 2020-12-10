@@ -10,7 +10,7 @@ use PHPUnit\Framework\Assert;
 /**
  * SubscribersPostResponseTest
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class SubscribersPostResponseTest extends \PHPUnit_Framework_TestCase
 {

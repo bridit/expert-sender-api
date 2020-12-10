@@ -9,7 +9,7 @@ use Pzelant\ExpertSenderApi\Exception\InvalidUseOfClassException;
 /**
  * Subscriber property value
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class SubscriberPropertyValue
 {

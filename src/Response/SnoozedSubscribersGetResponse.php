@@ -10,7 +10,7 @@ use Pzelant\ExpertSenderApi\SpecificXmlMethodResponse;
 /**
  * Response of get snoozed subscribers request
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class SnoozedSubscribersGetResponse extends SpecificXmlMethodResponse
 {

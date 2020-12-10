@@ -15,7 +15,7 @@ use Pzelant\ExpertSenderApi\Response\TimeGetResponse;
 /**
  * Expert Sender API
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class ExpertSenderApi
 {

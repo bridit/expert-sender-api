@@ -8,7 +8,7 @@ use Pzelant\ExpertSenderApi\Enum\ActivitiesGetRequest\RemovalReason;
 /**
  * Removal activity
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class RemovalActivity extends AbstractActivity
 {

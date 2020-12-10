@@ -9,7 +9,7 @@ use Pzelant\ExpertSenderApi\SpecificXmlMethodResponse;
 /**
  * Response of POST request in transactions resource
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class TransactionalPostResponse extends SpecificXmlMethodResponse
 {

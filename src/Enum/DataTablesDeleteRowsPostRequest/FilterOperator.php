@@ -14,7 +14,7 @@ use MyCLabs\Enum\Enum;
  * @method static FilterOperator GE()
  * @method static FilterOperator LE()
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class FilterOperator extends Enum
 {

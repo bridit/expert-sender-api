@@ -9,7 +9,7 @@ use Pzelant\ExpertSenderApi\Exception\InvalidUseOfClassException;
 /**
  * Identifier of subscriber for add/edit request
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class Identifier
 {

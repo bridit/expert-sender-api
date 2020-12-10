@@ -11,7 +11,7 @@ use Psr\Http\Message\StreamInterface;
 /**
  * Specific response which contains csv content
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class SpecificCsvMethodResponse implements ResponseInterface
 {

@@ -6,7 +6,7 @@ namespace Pzelant\ExpertSenderApi\Model\SubscribersPostResponse;
 /**
  * Subscriber info after add/edit
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class SubscriberData
 {

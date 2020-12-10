@@ -14,7 +14,7 @@ use MyCLabs\Enum\Enum;
  * @method static BounceType UNKNOWN()
  * @method static BounceType OTHER()
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class BounceType extends Enum
 {

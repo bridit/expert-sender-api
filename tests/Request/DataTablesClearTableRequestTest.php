@@ -10,7 +10,7 @@ use PHPUnit\Framework\Assert;
 /**
  * DataTablesClearTableRequestTest
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class DataTablesClearTableRequestTest extends \PHPUnit_Framework_TestCase
 {

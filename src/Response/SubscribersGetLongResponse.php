@@ -8,7 +8,7 @@ use Pzelant\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
 /**
  * Long information of subscriber
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class SubscribersGetLongResponse extends SubscribersGetShortResponse
 {

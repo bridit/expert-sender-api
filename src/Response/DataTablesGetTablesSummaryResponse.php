@@ -10,7 +10,7 @@ use Pzelant\ExpertSenderApi\SpecificXmlMethodResponse;
 /**
  * Response with tables summary
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class DataTablesGetTablesSummaryResponse extends SpecificXmlMethodResponse
 {

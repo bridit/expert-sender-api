@@ -8,7 +8,7 @@ use Pzelant\ExpertSenderApi\Model\SubscribersGetResponse\SubscriberProperty;
 /**
  * Subscriber's data
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class SubscriberData
 {

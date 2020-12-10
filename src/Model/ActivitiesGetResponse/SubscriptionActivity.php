@@ -6,7 +6,7 @@ namespace Pzelant\ExpertSenderApi\Model\ActivitiesGetResponse;
 /**
  * Subscription activity
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class SubscriptionActivity extends AbstractActivity
 {

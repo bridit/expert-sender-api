@@ -11,7 +11,7 @@ use Pzelant\ExpertSenderApi\SpecificCsvMethodResponse;
 /**
  * Bounces activity get response
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class BouncesActivityGetResponse extends SpecificCsvMethodResponse
 {

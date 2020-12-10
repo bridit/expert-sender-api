@@ -8,7 +8,7 @@ use Pzelant\ExpertSenderApi\Enum\SubscribersResponse\StateOnListStatus;
 /**
  * Subscriber's state on list
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class StateOnList
 {

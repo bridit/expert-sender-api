@@ -12,7 +12,7 @@ use PHPUnit\Framework\Assert;
 /**
  * ClicksActivityGetResponseTest
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class ClicksActivityGetResponseTest extends \PHPUnit_Framework_TestCase
 {

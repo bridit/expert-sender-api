@@ -15,7 +15,7 @@ use PHPUnit\Framework\Assert;
 /**
  * SubscribersGetResponseTest
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class SubscribersGetResponseTest extends \PHPUnit_Framework_TestCase
 {

@@ -10,7 +10,7 @@ use Pzelant\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Operator;
  *
  * @deprecated Use {@see \Pzelant\ExpertSenderApi\Model\WhereCondition} instead
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class WhereCondition extends \Pzelant\ExpertSenderApi\Model\WhereCondition
 {

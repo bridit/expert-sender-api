@@ -9,7 +9,7 @@ use Pzelant\ExpertSenderApi\Request\SegmentsGetRequest;
 /**
  * SegmentsGetRequestTest
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class SegmentsGetRequestTest extends \PHPUnit_Framework_TestCase
 {

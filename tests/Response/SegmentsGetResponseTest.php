@@ -11,7 +11,7 @@ use function iter\toArray;
 /**
  * SegmentsGetResponseTest
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class SegmentsGetResponseTest extends \PHPUnit_Framework_TestCase
 {

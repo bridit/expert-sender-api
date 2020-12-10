@@ -8,7 +8,7 @@ use Pzelant\ExpertSenderApi\Enum\SubscribersPostRequest\Mode;
 /**
  * Subscriber data for add/edit subscriber request
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class SubscriberInfo
 {

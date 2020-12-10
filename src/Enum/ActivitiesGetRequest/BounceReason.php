@@ -15,7 +15,7 @@ use MyCLabs\Enum\Enum;
  * @method static BounceReason UNKNOWN()
  * @method static BounceReason OTHER()
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class BounceReason extends Enum
 {

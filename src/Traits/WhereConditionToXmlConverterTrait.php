@@ -8,7 +8,7 @@ use Pzelant\ExpertSenderApi\Model\WhereCondition;
 /**
  * Where condition to xml converter trait
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 trait WhereConditionToXmlConverterTrait
 {

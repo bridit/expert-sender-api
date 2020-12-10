@@ -8,7 +8,7 @@ use Pzelant\ExpertSenderApi\ResponseInterface;
 /**
  * Exception of get data on not success response
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class TryToAccessDataFromErrorResponseException extends ExpertSenderApiException
 {

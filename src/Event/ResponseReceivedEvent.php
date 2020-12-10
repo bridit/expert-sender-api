@@ -9,7 +9,7 @@ use Symfony\Component\EventDispatcher\Event;
 /**
  * Event after response received
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class ResponseReceivedEvent extends Event
 {

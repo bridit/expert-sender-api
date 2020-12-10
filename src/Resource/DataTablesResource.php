@@ -26,7 +26,7 @@ use Pzelant\ExpertSenderApi\SpecificCsvMethodResponse;
 /**
  * Data tables resource
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class DataTablesResource extends AbstractResource
 {

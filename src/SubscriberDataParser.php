@@ -17,7 +17,7 @@ use SimpleXmlElement;
 /**
  * Subscriber data parser
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class SubscriberDataParser
 {

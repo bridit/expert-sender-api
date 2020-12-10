@@ -17,7 +17,7 @@ use Pzelant\ExpertSenderApi\ResponseInterface;
 /**
  * Messages resource
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class MessagesResource extends AbstractResource
 {

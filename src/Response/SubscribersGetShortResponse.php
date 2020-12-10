@@ -12,7 +12,7 @@ use Pzelant\ExpertSenderApi\SpecificXmlMethodResponse;
 /**
  * Short information about subscriber
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class SubscribersGetShortResponse extends SpecificXmlMethodResponse
 {

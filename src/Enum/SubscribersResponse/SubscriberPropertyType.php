@@ -17,7 +17,7 @@ use MyCLabs\Enum\Enum;
  * @method static SubscriberPropertyType SINGLE_SELECT()
  * @method static SubscriberPropertyType BOOLEAN()
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 final class SubscriberPropertyType extends Enum
 {

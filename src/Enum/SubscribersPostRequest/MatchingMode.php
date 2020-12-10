@@ -15,7 +15,7 @@ use MyCLabs\Enum\Enum;
  * @method static MatchingMode ID()
  * @method static MatchingMode PHONE()
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 final class MatchingMode extends Enum
 {

@@ -6,7 +6,7 @@ namespace Pzelant\ExpertSenderApi\Exception;
 /**
  * Exception when somehow someone break architecture of class
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class InvalidUseOfClassException extends ExpertSenderApiException
 {

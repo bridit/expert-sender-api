@@ -11,7 +11,7 @@ use Webmozart\Assert\Assert;
 /**
  * Request to delete rows
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class DataTablesDeleteRowsPostRequest implements RequestInterface
 {

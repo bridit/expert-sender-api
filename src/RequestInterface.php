@@ -8,7 +8,7 @@ use Pzelant\ExpertSenderApi\Enum\HttpMethod;
 /**
  * ExpertSender API Request
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 interface RequestInterface
 {

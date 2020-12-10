@@ -13,7 +13,7 @@ use MyCLabs\Enum\Enum;
  * @method static StateOnListStatus SNOOZED()
  * @method static StateOnListStatus NOT_CONFIRMED()
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 final class StateOnListStatus extends Enum
 {

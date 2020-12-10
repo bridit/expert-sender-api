@@ -6,7 +6,7 @@ namespace Pzelant\ExpertSenderApi\Model\ActivitiesGetResponse;
 /**
  * Goal activity
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class GoalActivity extends AbstractActivity
 {

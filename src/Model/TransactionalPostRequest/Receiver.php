@@ -8,7 +8,7 @@ namespace Pzelant\ExpertSenderApi\Model\TransactionalPostRequest;
  *
  * @see https://sites.google.com/a/expertsender.com/api-documentation/methods/messages/send-transactional-messages
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class Receiver
 {

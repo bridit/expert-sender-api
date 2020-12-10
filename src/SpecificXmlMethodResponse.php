@@ -8,7 +8,7 @@ use Psr\Http\Message\StreamInterface;
 /**
  * Specific response which contains xml content
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class SpecificXmlMethodResponse implements ResponseInterface
 {

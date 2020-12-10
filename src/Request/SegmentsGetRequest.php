@@ -9,7 +9,7 @@ use Pzelant\ExpertSenderApi\RequestInterface;
 /**
  * Segments GET Request
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class SegmentsGetRequest implements RequestInterface
 {

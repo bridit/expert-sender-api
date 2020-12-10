@@ -17,7 +17,7 @@ use Webmozart\Assert\Assert;
  *
  * @see https://sites.google.com/a/expertsender.com/api-documentation/methods/subscribers/add-subscriber
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class SubscribersPostRequest implements RequestInterface
 {

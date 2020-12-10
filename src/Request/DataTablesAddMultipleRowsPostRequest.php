@@ -11,7 +11,7 @@ use Pzelant\ExpertSenderApi\Traits\ColumnToXmlConverterTrait;
 /**
  * Request for POST DataTablesAddMultipleRows
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class DataTablesAddMultipleRowsPostRequest implements RequestInterface
 {

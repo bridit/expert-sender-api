@@ -12,7 +12,7 @@ use PHPUnit\Framework\Assert;
 /**
  * RemovalsActivityGetResponseTest
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class RemovalsActivityGetResponseTest extends \PHPUnit_Framework_TestCase
 {

@@ -6,7 +6,7 @@ namespace Pzelant\ExpertSenderApi\Exception;
 /**
  * Exception when response content is not valid xml and xml parsers can't work with it
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class NotValidXmlException extends ParseResponseException
 {

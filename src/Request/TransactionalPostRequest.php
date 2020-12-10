@@ -14,7 +14,7 @@ use Webmozart\Assert\Assert;
 /**
  * Send transactional message request
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class TransactionalPostRequest implements RequestInterface
 {

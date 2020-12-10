@@ -11,7 +11,7 @@ use MyCLabs\Enum\Enum;
  * @method static Direction ASCENDING()
  * @method static Direction DESCENDING()
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 final class Direction extends Enum
 {

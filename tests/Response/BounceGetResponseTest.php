@@ -11,7 +11,7 @@ use PHPUnit\Framework\Assert;
 /**
  * BounceGetResponseTest
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class BounceGetResponseTest extends \PHPUnit_Framework_TestCase
 {

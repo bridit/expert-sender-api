@@ -12,7 +12,7 @@ use Pzelant\ExpertSenderApi\Traits\WhereConditionToXmlConverterTrait;
 /**
  * Request for POST /Api/DataTablesGetData
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class DataTablesGetDataPostRequest implements RequestInterface
 {

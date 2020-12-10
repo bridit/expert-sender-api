@@ -10,7 +10,7 @@ use Pzelant\ExpertSenderApi\RequestInterface;
 /**
  * Request for GET /Api/Bounces
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class BouncesGetRequest implements RequestInterface
 {

@@ -15,7 +15,7 @@ use MyCLabs\Enum\Enum;
  * @method static DataOption FULL()
  * @method static DataOption EVENTS_HISTORY()
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 final class DataOption extends Enum
 {

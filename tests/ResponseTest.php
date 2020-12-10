@@ -9,7 +9,7 @@ use PHPUnit\Framework\Assert;
 /**
  * ResponseTest
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class ResponseTest extends \PHPUnit_Framework_TestCase
 {

@@ -9,7 +9,7 @@ use Pzelant\ExpertSenderApi\RequestInterface;
 /**
  * Clear table request
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class DataTablesClearTableRequest implements RequestInterface
 {

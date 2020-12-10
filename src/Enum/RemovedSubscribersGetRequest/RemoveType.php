@@ -15,7 +15,7 @@ use MyCLabs\Enum\Enum;
  * @method static RemoveType USER_UNKNOWN()
  * @method static RemoveType API()
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class RemoveType extends Enum
 {

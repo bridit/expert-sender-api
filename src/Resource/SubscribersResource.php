@@ -32,7 +32,7 @@ use Pzelant\ExpertSenderApi\ResponseInterface;
 /**
  * Subscribers resource
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class SubscribersResource extends AbstractResource
 {

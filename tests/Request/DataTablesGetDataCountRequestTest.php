@@ -12,7 +12,7 @@ use PHPUnit\Framework\Assert;
 /**
  * DataTablesGetDataCountRequestTest
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class DataTablesGetDataCountRequestTest extends \PHPUnit_Framework_TestCase
 {

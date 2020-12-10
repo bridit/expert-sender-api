@@ -10,7 +10,7 @@ use PHPUnit\Framework\Assert;
 /**
  * DataTablesGetTablesRequestTest
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class DataTablesGetTablesRequestTest extends \PHPUnit_Framework_TestCase
 {

@@ -15,7 +15,7 @@ use MyCLabs\Enum\Enum;
  * @method static SubscriberPropertySource PREF_CENTER()
  * @method static SubscriberPropertySource NOT_SET()
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 final class SubscriberPropertySource extends Enum
 {

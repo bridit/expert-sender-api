@@ -10,7 +10,7 @@ use Pzelant\ExpertSenderApi\Utils;
 /**
  * Response of add/edit subscriber request
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class SubscribersPostResponse extends SpecificXmlMethodResponse
 {

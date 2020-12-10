@@ -10,7 +10,7 @@ use Webmozart\Assert\Assert;
 /**
  * Get list of tables request
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class DataTablesGetTablesRequest implements RequestInterface
 {

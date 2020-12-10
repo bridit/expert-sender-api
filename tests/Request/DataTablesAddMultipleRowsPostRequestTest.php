@@ -12,7 +12,7 @@ use PHPUnit\Framework\Assert;
 /**
  * DataTablesAddMultipleRowsPostRequestTest
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class DataTablesAddMultipleRowsPostRequestTest extends \PHPUnit_Framework_TestCase
 {

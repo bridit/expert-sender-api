@@ -10,7 +10,7 @@ use PHPUnit\Framework\Assert;
 /**
  * SnoozedSubscribersGetRequestTest
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class SnoozedSubscribersGetRequestTest extends \PHPUnit_Framework_TestCase
 {

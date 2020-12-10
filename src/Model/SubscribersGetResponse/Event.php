@@ -6,7 +6,7 @@ namespace Pzelant\ExpertSenderApi\Model\SubscribersGetResponse;
 /**
  * Event from subscriber's events history
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class Event
 {

@@ -9,7 +9,7 @@ use Pzelant\ExpertSenderApi\SpecificXmlMethodResponse;
 /**
  * Response with information of Segment
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class GetSegmentSizeGetResponse extends SpecificXmlMethodResponse
 {

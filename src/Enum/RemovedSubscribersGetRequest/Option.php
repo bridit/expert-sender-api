@@ -10,7 +10,7 @@ use MyCLabs\Enum\Enum;
  *
  * @method static Option CUSTOMS()
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class Option extends Enum
 {

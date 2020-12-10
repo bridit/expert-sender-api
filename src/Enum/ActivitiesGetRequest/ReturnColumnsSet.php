@@ -11,7 +11,7 @@ use MyCLabs\Enum\Enum;
  * @method static ReturnColumnsSet STANDARD()
  * @method static ReturnColumnsSet EXTENDED()
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 final class ReturnColumnsSet extends Enum
 {

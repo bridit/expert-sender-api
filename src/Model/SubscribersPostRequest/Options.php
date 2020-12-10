@@ -6,7 +6,7 @@ namespace Pzelant\ExpertSenderApi\Model\SubscribersPostRequest;
 /**
  * Options of {@see SubscriberPostRequest}
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class Options
 {

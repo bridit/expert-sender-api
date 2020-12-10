@@ -8,7 +8,7 @@ use Webmozart\Assert\Assert;
 /**
  * Receiver of trigger message
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class Receiver
 {

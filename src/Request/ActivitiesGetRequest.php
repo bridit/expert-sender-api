@@ -12,7 +12,7 @@ use Pzelant\ExpertSenderApi\Utils;
 /**
  * Get subscriber activity request
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class ActivitiesGetRequest implements RequestInterface
 {

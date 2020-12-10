@@ -13,7 +13,7 @@ use MyCLabs\Enum\Enum;
  * @method static Operator LOWER()
  * @method static Operator LIKE()
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 final class Operator extends Enum
 {

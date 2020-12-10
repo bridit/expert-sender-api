@@ -15,7 +15,7 @@ use MyCLabs\Enum\Enum;
  * @method static RemovalReason USER_UNKNOWN()
  * @method static RemovalReason API()
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 final class RemovalReason extends Enum
 {

@@ -9,7 +9,7 @@ use Psr\Http\Message\StreamInterface;
 /**
  * Default response of ExpertSender API
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class Response implements ResponseInterface
 {

@@ -6,7 +6,7 @@ namespace Pzelant\ExpertSenderApi\Model\DataTablesGetTablesSummaryResponse;
 /**
  * Details about table
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class TableDetails extends AbstractTableData
 {

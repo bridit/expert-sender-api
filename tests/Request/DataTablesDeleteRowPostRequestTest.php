@@ -11,7 +11,7 @@ use PHPUnit\Framework\Assert;
 /**
  * DataTablesDeleteRowPostRequestTest
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class DataTablesDeleteRowPostRequestTest extends \PHPUnit_Framework_TestCase
 {

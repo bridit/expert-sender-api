@@ -13,7 +13,7 @@ use MyCLabs\Enum\Enum;
  * @method static HttpMethod PUT()
  * @method static HttpMethod DELETE()
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 final class HttpMethod extends Enum
 {

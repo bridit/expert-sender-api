@@ -9,7 +9,7 @@ use Webmozart\Assert\Assert;
 /**
  * Order by rule to get table data
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class OrderByRule
 {

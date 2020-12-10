@@ -9,7 +9,7 @@ use Pzelant\ExpertSenderApi\Request\SnoozedSubscribersPostRequest;
 /**
  * SnoozedSubscribersPostRequestTest
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class SnoozedSubscribersPostRequestTest extends \PHPUnit_Framework_TestCase
 {

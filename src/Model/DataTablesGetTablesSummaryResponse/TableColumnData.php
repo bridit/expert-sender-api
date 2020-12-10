@@ -6,7 +6,7 @@ namespace Pzelant\ExpertSenderApi\Model\DataTablesGetTablesSummaryResponse;
 /**
  * Table column data
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class TableColumnData
 {

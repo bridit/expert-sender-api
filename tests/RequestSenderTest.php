@@ -26,7 +26,7 @@ use Symfony\Component\EventDispatcher\EventDispatcher;
 /**
  * RequestSenderTest
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class RequestSenderTest extends \PHPUnit_Framework_TestCase
 {

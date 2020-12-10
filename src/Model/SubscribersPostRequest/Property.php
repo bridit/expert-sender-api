@@ -8,7 +8,7 @@ use Webmozart\Assert\Assert;
 /**
  * Property of subscriber
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class Property
 {

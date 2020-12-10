@@ -10,7 +10,7 @@ use PHPUnit\Framework\Assert;
 /**
  * GetSegmentSizeGetRequestTest
  *
- * @author Nikita Sapogov <sapogov.n@Pzelant.ru>
+ * @author Nikita Sapogov <p.zelant@gmail.com>
  */
 class GetSegmentSizeGetRequestTest extends \PHPUnit_Framework_TestCase
 {
