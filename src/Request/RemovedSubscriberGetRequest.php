@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Request;
+namespace Bridit\ExpertSenderApi\Request;
 
-use Pzelant\ExpertSenderApi\Enum\HttpMethod;
-use Pzelant\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\Option;
-use Pzelant\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\RemoveType;
-use Pzelant\ExpertSenderApi\RequestInterface;
+use Bridit\ExpertSenderApi\Enum\HttpMethod;
+use Bridit\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\Option;
+use Bridit\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\RemoveType;
+use Bridit\ExpertSenderApi\RequestInterface;
 use Webmozart\Assert\Assert;
 
 /**

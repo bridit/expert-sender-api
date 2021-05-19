@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests\Request;
+namespace Bridit\ExpertSenderApi\Tests\Request;
 
-use Pzelant\ExpertSenderApi\Enum\HttpMethod;
-use Pzelant\ExpertSenderApi\Enum\SubscribersGetRequest\DataOption;
-use Pzelant\ExpertSenderApi\Request\SubscribersGetRequest;
+use Bridit\ExpertSenderApi\Enum\HttpMethod;
+use Bridit\ExpertSenderApi\Enum\SubscribersGetRequest\DataOption;
+use Bridit\ExpertSenderApi\Request\SubscribersGetRequest;
 use PHPUnit\Framework\Assert;
 
-class SubscribersGetRequestTest extends \PHPUnit_Framework_TestCase
+class SubscribersGetRequestTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Test
@@ -34,11 +34,9 @@ class SubscribersGetRequestTest extends \PHPUnit_Framework_TestCase
         );
     }
 
-    /**
-     * @expectedException \InvalidArgumentException
-     */
-    public function testThrowExceptionIfEmailIsEmpty()
+  public function testThrowExceptionIfEmailIsEmpty()
     {
-        new SubscribersGetRequest('', DataOption::SHORT());
+      $this->expectException(\InvalidArgumentException::class);
+      new SubscribersGetRequest('', DataOption::SHORT());
     }
 }

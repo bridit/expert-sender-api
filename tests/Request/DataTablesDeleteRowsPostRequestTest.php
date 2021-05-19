@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests\Request;
+namespace Bridit\ExpertSenderApi\Tests\Request;
 
-use Pzelant\ExpertSenderApi\Enum\DataTablesDeleteRowsPostRequest\FilterOperator;
-use Pzelant\ExpertSenderApi\Enum\HttpMethod;
-use Pzelant\ExpertSenderApi\Model\DataTablesDeleteRowsPostRequest\Filter;
-use Pzelant\ExpertSenderApi\Request\DataTablesDeleteRowsPostRequest;
+use Bridit\ExpertSenderApi\Enum\DataTablesDeleteRowsPostRequest\FilterOperator;
+use Bridit\ExpertSenderApi\Enum\HttpMethod;
+use Bridit\ExpertSenderApi\Model\DataTablesDeleteRowsPostRequest\Filter;
+use Bridit\ExpertSenderApi\Request\DataTablesDeleteRowsPostRequest;
 use PHPUnit\Framework\Assert;
 
 /**
@@ -14,7 +14,7 @@ use PHPUnit\Framework\Assert;
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class DataTablesDeleteRowsPostRequestTest extends \PHPUnit_Framework_TestCase
+class DataTablesDeleteRowsPostRequestTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Test

@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Request;
+namespace Bridit\ExpertSenderApi\Request;
 
-use Pzelant\ExpertSenderApi\Model\TransactionalPostRequest\Attachment;
-use Pzelant\ExpertSenderApi\Model\TransactionalPostRequest\Snippet;
-use Pzelant\ExpertSenderApi\Enum\HttpMethod;
-use Pzelant\ExpertSenderApi\Model\TransactionalPostRequest\Receiver;
-use Pzelant\ExpertSenderApi\Utils;
+use Bridit\ExpertSenderApi\Model\TransactionalPostRequest\Attachment;
+use Bridit\ExpertSenderApi\Model\TransactionalPostRequest\Snippet;
+use Bridit\ExpertSenderApi\Enum\HttpMethod;
+use Bridit\ExpertSenderApi\Model\TransactionalPostRequest\Receiver;
+use Bridit\ExpertSenderApi\Utils;
 use Webmozart\Assert\Assert;
 
 /**

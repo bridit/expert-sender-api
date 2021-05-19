@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Model;
+namespace Bridit\ExpertSenderApi\Model;
 
-use Pzelant\ExpertSenderApi\Model\SubscribersGetResponse\SubscriberProperty;
+use Bridit\ExpertSenderApi\Model\SubscribersGetResponse\SubscriberProperty;
 
 /**
  * Subscriber's data

@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Model\ActivitiesGetResponse;
+namespace Bridit\ExpertSenderApi\Model\ActivitiesGetResponse;
 
-use Pzelant\ExpertSenderApi\Enum\ActivitiesGetRequest\BounceReason;
+use Bridit\ExpertSenderApi\Enum\ActivitiesGetRequest\BounceReason;
 
 /**
  * Bounce activity

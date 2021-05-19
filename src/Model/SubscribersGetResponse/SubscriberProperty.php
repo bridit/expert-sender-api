@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Model\SubscribersGetResponse;
+namespace Bridit\ExpertSenderApi\Model\SubscribersGetResponse;
 
-use Pzelant\ExpertSenderApi\Enum\SubscriberPropertySource;
-use Pzelant\ExpertSenderApi\Enum\SubscribersResponse\SubscriberPropertyType;
+use Bridit\ExpertSenderApi\Enum\SubscriberPropertySource;
+use Bridit\ExpertSenderApi\Enum\SubscribersResponse\SubscriberPropertyType;
 use Webmozart\Assert\Assert;
 
 /**

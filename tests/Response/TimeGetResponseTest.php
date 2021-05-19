@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests\Response;
+namespace Bridit\ExpertSenderApi\Tests\Response;
 
-use Pzelant\ExpertSenderApi\Response;
-use Pzelant\ExpertSenderApi\Response\TimeGetResponse;
+use Bridit\ExpertSenderApi\Response;
+use Bridit\ExpertSenderApi\Response\TimeGetResponse;
 use PHPUnit\Framework\Assert;
 
-class TimeGetResponseTest extends \PHPUnit_Framework_TestCase
+class TimeGetResponseTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Test
@@ -30,11 +30,12 @@ class TimeGetResponseTest extends \PHPUnit_Framework_TestCase
     /**
      * Test
      *
-     * @expectedException \Pzelant\ExpertSenderApi\Exception\ParseResponseException
+     *
      */
     public function testThrowExceptionIfDateStringIsWrong()
     {
-        $body = '<ApiResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" '
+      $this->expectException(\Bridit\ExpertSenderApi\Exception\ParseResponseException::class);
+      $body = '<ApiResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" '
             . 'xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <Data>WRONG_DATA</Data>
             </ApiResponse>';
@@ -56,11 +57,12 @@ class TimeGetResponseTest extends \PHPUnit_Framework_TestCase
     /**
      * Test
      *
-     * @expectedException \Pzelant\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException
+     *
      */
     public function testThrowExceptionIfTryingGetServerTimeOnNotOkResponse()
     {
-        $response = new TimeGetResponse(new Response(new \GuzzleHttp\Psr7\Response(500, [], '')));
+      $this->expectException(\Bridit\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException::class);
+      $response = new TimeGetResponse(new Response(new \GuzzleHttp\Psr7\Response(500, [], '')));
         $response->getServerTime();
     }
 }

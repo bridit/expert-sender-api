@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Exception;
+namespace Bridit\ExpertSenderApi\Exception;
 
 /**
  * Exception when response content is not valid xml and xml parsers can't work with it

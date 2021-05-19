@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Model\SegmentsGetResponse;
+namespace Bridit\ExpertSenderApi\Model\SegmentsGetResponse;
 
 /**
  * Segment

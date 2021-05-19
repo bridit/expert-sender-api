@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Model\SubscribersGetResponse;
+namespace Bridit\ExpertSenderApi\Model\SubscribersGetResponse;
 
 /**
  * Event from subscriber's events history

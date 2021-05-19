@@ -1,18 +1,18 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Resource;
+namespace Bridit\ExpertSenderApi\Resource;
 
-use Pzelant\ExpertSenderApi\AbstractResource;
-use Pzelant\ExpertSenderApi\Model\TransactionalPostRequest\Attachment;
-use Pzelant\ExpertSenderApi\Model\TransactionalPostRequest\Snippet;
-use Pzelant\ExpertSenderApi\Model\TriggersPostRequest\Receiver;
-use Pzelant\ExpertSenderApi\Model\TransactionalPostRequest\Receiver as TransactionalReceiver;
-use Pzelant\ExpertSenderApi\Request\SystemTransactionalPostRequest;
-use Pzelant\ExpertSenderApi\Request\TransactionalPostRequest;
-use Pzelant\ExpertSenderApi\Request\TriggersPostRequest;
-use Pzelant\ExpertSenderApi\Response\TransactionalPostResponse;
-use Pzelant\ExpertSenderApi\ResponseInterface;
+use Bridit\ExpertSenderApi\AbstractResource;
+use Bridit\ExpertSenderApi\Model\TransactionalPostRequest\Attachment;
+use Bridit\ExpertSenderApi\Model\TransactionalPostRequest\Snippet;
+use Bridit\ExpertSenderApi\Model\TriggersPostRequest\Receiver;
+use Bridit\ExpertSenderApi\Model\TransactionalPostRequest\Receiver as TransactionalReceiver;
+use Bridit\ExpertSenderApi\Request\SystemTransactionalPostRequest;
+use Bridit\ExpertSenderApi\Request\TransactionalPostRequest;
+use Bridit\ExpertSenderApi\Request\TriggersPostRequest;
+use Bridit\ExpertSenderApi\Response\TransactionalPostResponse;
+use Bridit\ExpertSenderApi\ResponseInterface;
 
 /**
  * Messages resource

@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Model\ActivitiesGetResponse;
+namespace Bridit\ExpertSenderApi\Model\ActivitiesGetResponse;
 
 /**
  * Goal activity

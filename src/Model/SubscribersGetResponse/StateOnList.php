@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Model\SubscribersGetResponse;
+namespace Bridit\ExpertSenderApi\Model\SubscribersGetResponse;
 
-use Pzelant\ExpertSenderApi\Enum\SubscribersResponse\StateOnListStatus;
+use Bridit\ExpertSenderApi\Enum\SubscribersResponse\StateOnListStatus;
 
 /**
  * Subscriber's state on list

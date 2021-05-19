@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests\Request;
+namespace Bridit\ExpertSenderApi\Tests\Request;
 
-use Pzelant\ExpertSenderApi\Enum\HttpMethod;
-use Pzelant\ExpertSenderApi\Request\SubscribersDeleteRequest;
+use Bridit\ExpertSenderApi\Enum\HttpMethod;
+use Bridit\ExpertSenderApi\Request\SubscribersDeleteRequest;
 use PHPUnit\Framework\Assert;
 
-class SubscribersDeleteRequestTest extends \PHPUnit_Framework_TestCase
+class SubscribersDeleteRequestTest extends \PHPUnit\Framework\TestCase
 {
     public function testCreateWithId()
     {

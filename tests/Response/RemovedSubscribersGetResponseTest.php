@@ -1,16 +1,16 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests\Response;
+namespace Bridit\ExpertSenderApi\Tests\Response;
 
-use Pzelant\ExpertSenderApi\Enum\DataType;
-use Pzelant\ExpertSenderApi\Enum\SubscriberPropertySource;
-use Pzelant\ExpertSenderApi\Enum\SubscribersResponse\SubscriberPropertyType;
-use Pzelant\ExpertSenderApi\Model\RemovedSubscribersGetResponse\RemovedSubscriber;
-use Pzelant\ExpertSenderApi\Model\SubscriberData;
-use Pzelant\ExpertSenderApi\Model\SubscribersGetResponse\SubscriberProperty;
-use Pzelant\ExpertSenderApi\Response;
-use Pzelant\ExpertSenderApi\Response\RemovedSubscribersGetResponse;
+use Bridit\ExpertSenderApi\Enum\DataType;
+use Bridit\ExpertSenderApi\Enum\SubscriberPropertySource;
+use Bridit\ExpertSenderApi\Enum\SubscribersResponse\SubscriberPropertyType;
+use Bridit\ExpertSenderApi\Model\RemovedSubscribersGetResponse\RemovedSubscriber;
+use Bridit\ExpertSenderApi\Model\SubscriberData;
+use Bridit\ExpertSenderApi\Model\SubscribersGetResponse\SubscriberProperty;
+use Bridit\ExpertSenderApi\Response;
+use Bridit\ExpertSenderApi\Response\RemovedSubscribersGetResponse;
 use PHPUnit\Framework\Assert;
 
 /**
@@ -18,7 +18,7 @@ use PHPUnit\Framework\Assert;
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class RemovedSubscribersGetResponseTest extends \PHPUnit_Framework_TestCase
+class RemovedSubscribersGetResponseTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Test

@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests\Response;
+namespace Bridit\ExpertSenderApi\Tests\Response;
 
-use Pzelant\ExpertSenderApi\Model\BouncesGetResponse\Bounce;
-use Pzelant\ExpertSenderApi\Response;
-use Pzelant\ExpertSenderApi\Response\BouncesGetResponse;
+use Bridit\ExpertSenderApi\Model\BouncesGetResponse\Bounce;
+use Bridit\ExpertSenderApi\Response;
+use Bridit\ExpertSenderApi\Response\BouncesGetResponse;
 use PHPUnit\Framework\Assert;
 
 /**
@@ -13,7 +13,7 @@ use PHPUnit\Framework\Assert;
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class BounceGetResponseTest extends \PHPUnit_Framework_TestCase
+class BounceGetResponseTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Test

@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi;
+namespace Bridit\ExpertSenderApi;
 
-use Pzelant\ExpertSenderApi\Model\ErrorMessage;
+use Bridit\ExpertSenderApi\Model\ErrorMessage;
 use Psr\Http\Message\StreamInterface;
 
 /**

@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Traits;
+namespace Bridit\ExpertSenderApi\Traits;
 
-use Pzelant\ExpertSenderApi\Model\WhereCondition;
+use Bridit\ExpertSenderApi\Model\WhereCondition;
 
 /**
  * Where condition to xml converter trait

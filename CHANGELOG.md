@@ -41,7 +41,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Get rows count request
 - Get list of tables request
 ### Deprecated
-- \Pzelant\ExpertSenderApi\Model\DataTablesGetDataPostRequest\WhereCondition, use \Pzelant\ExpertSenderApi\Model\WhereCondition instead
+- \Bridit\ExpertSenderApi\Model\DataTablesGetDataPostRequest\WhereCondition, use \Bridit\ExpertSenderApi\Model\WhereCondition instead
 
 ## [1.1.0] - 2017-08-17
 ### Added
@@ -64,8 +64,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Removed
 - all deprecated features
 ### Changed
-- renamed SortOrder into Direction and moved in Pzelant\ExpertSenderApi\Enum\DataTablesGetDataPostRequest namespace
-- moved Operator in Pzelant\ExpertSenderApi\Enum\DataTablesGetDataPostRequest
+- renamed SortOrder into Direction and moved in Bridit\ExpertSenderApi\Enum\DataTablesGetDataPostRequest namespace
+- moved Operator in Bridit\ExpertSenderApi\Enum\DataTablesGetDataPostRequest
 - changed argument type for ExpertSenderApi from RequestSender to RequestSenderInterface
 
 ## [0.4.0] - 2017-08-09

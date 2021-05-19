@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Enum\DataTablesGetDataPostRequest;
+namespace Bridit\ExpertSenderApi\Enum\DataTablesGetDataPostRequest;
 
 use MyCLabs\Enum\Enum;
 

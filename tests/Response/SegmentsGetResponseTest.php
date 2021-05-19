@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests\Response;
+namespace Bridit\ExpertSenderApi\Tests\Response;
 
-use Pzelant\ExpertSenderApi\Model\SegmentsGetResponse\Segment;
-use Pzelant\ExpertSenderApi\Response;
-use Pzelant\ExpertSenderApi\Response\SegmentsGetResponse;
+use Bridit\ExpertSenderApi\Model\SegmentsGetResponse\Segment;
+use Bridit\ExpertSenderApi\Response;
+use Bridit\ExpertSenderApi\Response\SegmentsGetResponse;
 use function iter\toArray;
 
 /**
@@ -13,7 +13,7 @@ use function iter\toArray;
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class SegmentsGetResponseTest extends \PHPUnit_Framework_TestCase
+class SegmentsGetResponseTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Test

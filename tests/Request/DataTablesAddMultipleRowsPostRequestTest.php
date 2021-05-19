@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests\Request;
+namespace Bridit\ExpertSenderApi\Tests\Request;
 
-use Pzelant\ExpertSenderApi\Enum\HttpMethod;
-use Pzelant\ExpertSenderApi\Model\Column;
-use Pzelant\ExpertSenderApi\Model\DataTablesAddMultipleRowsPostRequest\Row;
-use Pzelant\ExpertSenderApi\Request\DataTablesAddMultipleRowsPostRequest;
+use Bridit\ExpertSenderApi\Enum\HttpMethod;
+use Bridit\ExpertSenderApi\Model\Column;
+use Bridit\ExpertSenderApi\Model\DataTablesAddMultipleRowsPostRequest\Row;
+use Bridit\ExpertSenderApi\Request\DataTablesAddMultipleRowsPostRequest;
 use PHPUnit\Framework\Assert;
 
 /**
@@ -14,7 +14,7 @@ use PHPUnit\Framework\Assert;
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class DataTablesAddMultipleRowsPostRequestTest extends \PHPUnit_Framework_TestCase
+class DataTablesAddMultipleRowsPostRequestTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Test

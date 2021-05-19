@@ -1,21 +1,21 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Resource;
+namespace Bridit\ExpertSenderApi\Resource;
 
-use Pzelant\ExpertSenderApi\AbstractResource;
-use Pzelant\ExpertSenderApi\Enum\ActivitiesGetRequest\ActivityType;
-use Pzelant\ExpertSenderApi\Enum\ActivitiesGetRequest\ReturnColumnsSet;
-use Pzelant\ExpertSenderApi\Request\ActivitiesGetRequest;
-use Pzelant\ExpertSenderApi\Response\ActivitiesGetResponse\BouncesActivityGetResponse;
-use Pzelant\ExpertSenderApi\Response\ActivitiesGetResponse\ClicksActivityGetResponse;
-use Pzelant\ExpertSenderApi\Response\ActivitiesGetResponse\ComplaintsActivityGetResponse;
-use Pzelant\ExpertSenderApi\Response\ActivitiesGetResponse\ConfirmationsActivityGetResponse;
-use Pzelant\ExpertSenderApi\Response\ActivitiesGetResponse\GoalsActivityGetResponse;
-use Pzelant\ExpertSenderApi\Response\ActivitiesGetResponse\OpensActivityGetResponse;
-use Pzelant\ExpertSenderApi\Response\ActivitiesGetResponse\RemovalsActivityGetResponse;
-use Pzelant\ExpertSenderApi\Response\ActivitiesGetResponse\SendsActivityGetResponse;
-use Pzelant\ExpertSenderApi\Response\ActivitiesGetResponse\SubscriptionsActivityGetResponse;
+use Bridit\ExpertSenderApi\AbstractResource;
+use Bridit\ExpertSenderApi\Enum\ActivitiesGetRequest\ActivityType;
+use Bridit\ExpertSenderApi\Enum\ActivitiesGetRequest\ReturnColumnsSet;
+use Bridit\ExpertSenderApi\Request\ActivitiesGetRequest;
+use Bridit\ExpertSenderApi\Response\ActivitiesGetResponse\BouncesActivityGetResponse;
+use Bridit\ExpertSenderApi\Response\ActivitiesGetResponse\ClicksActivityGetResponse;
+use Bridit\ExpertSenderApi\Response\ActivitiesGetResponse\ComplaintsActivityGetResponse;
+use Bridit\ExpertSenderApi\Response\ActivitiesGetResponse\ConfirmationsActivityGetResponse;
+use Bridit\ExpertSenderApi\Response\ActivitiesGetResponse\GoalsActivityGetResponse;
+use Bridit\ExpertSenderApi\Response\ActivitiesGetResponse\OpensActivityGetResponse;
+use Bridit\ExpertSenderApi\Response\ActivitiesGetResponse\RemovalsActivityGetResponse;
+use Bridit\ExpertSenderApi\Response\ActivitiesGetResponse\SendsActivityGetResponse;
+use Bridit\ExpertSenderApi\Response\ActivitiesGetResponse\SubscriptionsActivityGetResponse;
 
 /**
  * Subscriber activity resource

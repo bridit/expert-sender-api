@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests\Response;
+namespace Bridit\ExpertSenderApi\Tests\Response;
 
-use Pzelant\ExpertSenderApi\Model\DataTablesGetTablesSummaryResponse\TableSummary;
-use Pzelant\ExpertSenderApi\Response;
-use Pzelant\ExpertSenderApi\Response\DataTablesGetTablesSummaryResponse;
+use Bridit\ExpertSenderApi\Model\DataTablesGetTablesSummaryResponse\TableSummary;
+use Bridit\ExpertSenderApi\Response;
+use Bridit\ExpertSenderApi\Response\DataTablesGetTablesSummaryResponse;
 use function iter\toArray;
 use PHPUnit\Framework\Assert;
 
@@ -14,7 +14,7 @@ use PHPUnit\Framework\Assert;
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class DataTablesGetTablesSummaryResponseTest extends \PHPUnit_Framework_TestCase
+class DataTablesGetTablesSummaryResponseTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Test

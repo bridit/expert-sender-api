@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi;
+namespace Bridit\ExpertSenderApi;
 
 /**
  * Expert Sender request sender

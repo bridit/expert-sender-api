@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests\Response;
+namespace Bridit\ExpertSenderApi\Tests\Response;
 
-use Pzelant\ExpertSenderApi\Response;
-use Pzelant\ExpertSenderApi\Response\SubscribersPostResponse;
+use Bridit\ExpertSenderApi\Response;
+use Bridit\ExpertSenderApi\Response\SubscribersPostResponse;
 use PHPUnit\Framework\Assert;
 
 /**
@@ -12,7 +12,7 @@ use PHPUnit\Framework\Assert;
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class SubscribersPostResponseTest extends \PHPUnit_Framework_TestCase
+class SubscribersPostResponseTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Test

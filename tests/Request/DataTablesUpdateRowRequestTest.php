@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests\Request;
+namespace Bridit\ExpertSenderApi\Tests\Request;
 
-use Pzelant\ExpertSenderApi\Enum\HttpMethod;
-use Pzelant\ExpertSenderApi\Model\Column;
-use Pzelant\ExpertSenderApi\Request\DataTablesUpdateRowPostRequest;
+use Bridit\ExpertSenderApi\Enum\HttpMethod;
+use Bridit\ExpertSenderApi\Model\Column;
+use Bridit\ExpertSenderApi\Request\DataTablesUpdateRowPostRequest;
 use PHPUnit\Framework\Assert;
 
-class DataTablesUpdateRowRequestTest extends \PHPUnit_Framework_TestCase
+class DataTablesUpdateRowRequestTest extends \PHPUnit\Framework\TestCase
 {
     public function testCommonUsage()
     {

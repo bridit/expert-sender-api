@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests\Response;
+namespace Bridit\ExpertSenderApi\Tests\Response;
 
-use Pzelant\ExpertSenderApi\Response;
-use Pzelant\ExpertSenderApi\Response\GetSegmentSizeGetResponse;
+use Bridit\ExpertSenderApi\Response;
+use Bridit\ExpertSenderApi\Response\GetSegmentSizeGetResponse;
 use PHPUnit\Framework\Assert;
 
 /**
@@ -12,7 +12,7 @@ use PHPUnit\Framework\Assert;
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class GetSegmentSizeGetResponseTest extends \PHPUnit_Framework_TestCase
+class GetSegmentSizeGetResponseTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Test
@@ -45,12 +45,11 @@ class GetSegmentSizeGetResponseTest extends \PHPUnit_Framework_TestCase
 
     /**
      * Test
-     *
-     * @expectedException \Pzelant\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException
      */
     public function testGetSizeThrowsExceptionIfResponseIsNotOk()
     {
-        $xml = '<ApiResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"'
+      $this->expectException(\Bridit\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException::class);
+      $xml = '<ApiResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"'
             . ' xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                 <ErrorMessage>
                     <Code>400</Code>
@@ -75,12 +74,11 @@ class GetSegmentSizeGetResponseTest extends \PHPUnit_Framework_TestCase
 
     /**
      * Test
-     *
-     * @expectedException \Pzelant\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException
      */
     public function testGetCountDateThrowsExceptionIfResponseIsNotOk()
     {
-        $xml = '<ApiResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"'
+      $this->expectException(\Bridit\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException::class);
+      $xml = '<ApiResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"'
             . ' xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                 <ErrorMessage>
                     <Code>400</Code>

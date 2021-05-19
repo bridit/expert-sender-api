@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Model\BouncesGetResponse;
+namespace Bridit\ExpertSenderApi\Model\BouncesGetResponse;
 
-use Pzelant\ExpertSenderApi\Enum\BouncesGetResponse\BounceType;
+use Bridit\ExpertSenderApi\Enum\BouncesGetResponse\BounceType;
 
 /**
  * Bounce

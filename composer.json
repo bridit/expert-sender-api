@@ -10,6 +10,10 @@
     {
       "name": "pzelant",
       "email": "pzelant@gmail.com"
+    },
+    {
+      "name": "Gus",
+      "email": "gus@brid-it.com"
     }
   ],
   "require": {
@@ -26,12 +30,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Pzelant\\ExpertSenderApi\\": "src/"
+      "Bridit\\ExpertSenderApi\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Pzelant\\ExpertSenderApi\\Tests\\": "tests/"
+      "Bridit\\ExpertSenderApi\\Tests\\": "tests/"
     }
   },
   "scripts": {

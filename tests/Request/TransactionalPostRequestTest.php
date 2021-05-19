@@ -1,15 +1,15 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests\Request;
+namespace Bridit\ExpertSenderApi\Tests\Request;
 
-use Pzelant\ExpertSenderApi\Model\TransactionalPostRequest\Attachment;
-use Pzelant\ExpertSenderApi\Model\TransactionalPostRequest\Receiver;
-use Pzelant\ExpertSenderApi\Model\TransactionalPostRequest\Snippet;
-use Pzelant\ExpertSenderApi\Enum\HttpMethod;
-use Pzelant\ExpertSenderApi\Request\TransactionalPostRequest;
+use Bridit\ExpertSenderApi\Model\TransactionalPostRequest\Attachment;
+use Bridit\ExpertSenderApi\Model\TransactionalPostRequest\Receiver;
+use Bridit\ExpertSenderApi\Model\TransactionalPostRequest\Snippet;
+use Bridit\ExpertSenderApi\Enum\HttpMethod;
+use Bridit\ExpertSenderApi\Request\TransactionalPostRequest;
 
-class TransactionalPostRequestTest extends \PHPUnit_Framework_TestCase
+class TransactionalPostRequestTest extends \PHPUnit\Framework\TestCase
 {
     public function testRequestCompileValidXml()
     {

@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Event;
+namespace Bridit\ExpertSenderApi\Event;
 
 use Symfony\Contracts\EventDispatcher\Event;
-use Pzelant\ExpertSenderApi\ResponseInterface;
+use Bridit\ExpertSenderApi\ResponseInterface;
 
 /**
  * Event after response received

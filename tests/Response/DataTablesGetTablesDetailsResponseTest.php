@@ -1,15 +1,15 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests\Response;
+namespace Bridit\ExpertSenderApi\Tests\Response;
 
-use Pzelant\ExpertSenderApi\Model\DataTablesGetTablesSummaryResponse\TableColumnData;
-use Pzelant\ExpertSenderApi\Response;
-use Pzelant\ExpertSenderApi\Response\DataTablesGetTablesDetailsResponse;
+use Bridit\ExpertSenderApi\Model\DataTablesGetTablesSummaryResponse\TableColumnData;
+use Bridit\ExpertSenderApi\Response;
+use Bridit\ExpertSenderApi\Response\DataTablesGetTablesDetailsResponse;
 use function iter\toArray;
 use PHPUnit\Framework\Assert;
 
-class DataTablesGetTablesDetailsResponseTest extends \PHPUnit_Framework_TestCase
+class DataTablesGetTablesDetailsResponseTest extends \PHPUnit\Framework\TestCase
 {
     public function testCommonUsage()
     {

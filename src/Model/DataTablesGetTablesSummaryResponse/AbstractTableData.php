@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Model\DataTablesGetTablesSummaryResponse;
+namespace Bridit\ExpertSenderApi\Model\DataTablesGetTablesSummaryResponse;
 
 /**
  * Table data

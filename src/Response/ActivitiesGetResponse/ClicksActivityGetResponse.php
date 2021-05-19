@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Response\ActivitiesGetResponse;
+namespace Bridit\ExpertSenderApi\Response\ActivitiesGetResponse;
 
-use Pzelant\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
-use Pzelant\ExpertSenderApi\Model\ActivitiesGetResponse\ClickActivity;
-use Pzelant\ExpertSenderApi\SpecificCsvMethodResponse;
+use Bridit\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
+use Bridit\ExpertSenderApi\Model\ActivitiesGetResponse\ClickActivity;
+use Bridit\ExpertSenderApi\SpecificCsvMethodResponse;
 
 /**
  * Response with clicks activity

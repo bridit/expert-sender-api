@@ -1,17 +1,17 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests\Request;
+namespace Bridit\ExpertSenderApi\Tests\Request;
 
-use Pzelant\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Direction;
-use Pzelant\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Operator;
-use Pzelant\ExpertSenderApi\Enum\HttpMethod;
-use Pzelant\ExpertSenderApi\Model\DataTablesGetDataPostRequest\OrderByRule;
-use Pzelant\ExpertSenderApi\Model\WhereCondition;
-use Pzelant\ExpertSenderApi\Request\DataTablesGetDataPostRequest;
+use Bridit\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Direction;
+use Bridit\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Operator;
+use Bridit\ExpertSenderApi\Enum\HttpMethod;
+use Bridit\ExpertSenderApi\Model\DataTablesGetDataPostRequest\OrderByRule;
+use Bridit\ExpertSenderApi\Model\WhereCondition;
+use Bridit\ExpertSenderApi\Request\DataTablesGetDataPostRequest;
 use PHPUnit\Framework\Assert;
 
-class DataTablesGetDataPostRequestTest extends \PHPUnit_Framework_TestCase
+class DataTablesGetDataPostRequestTest extends \PHPUnit\Framework\TestCase
 {
     public function testCommonUsage()
     {

@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Model\SubscribersGetResponse;
+namespace Bridit\ExpertSenderApi\Model\SubscribersGetResponse;
 
-use Pzelant\ExpertSenderApi\Enum\DataType;
-use Pzelant\ExpertSenderApi\Exception\InvalidUseOfClassException;
+use Bridit\ExpertSenderApi\Enum\DataType;
+use Bridit\ExpertSenderApi\Exception\InvalidUseOfClassException;
 
 /**
  * Subscriber property value

@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests\Request;
+namespace Bridit\ExpertSenderApi\Tests\Request;
 
-use Pzelant\ExpertSenderApi\Enum\HttpMethod;
-use Pzelant\ExpertSenderApi\Request\TimeGetRequest;
+use Bridit\ExpertSenderApi\Enum\HttpMethod;
+use Bridit\ExpertSenderApi\Request\TimeGetRequest;
 use PHPUnit\Framework\Assert;
 
-class TimeGetRequestTest extends \PHPUnit_Framework_TestCase
+class TimeGetRequestTest extends \PHPUnit\Framework\TestCase
 {
     public function testValidUsage()
     {

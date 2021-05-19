@@ -60,12 +60,12 @@ composer require pzelant/expert-sender-api
 // ...
 
 use GuzzleHttp\Client;
-use Pzelant\ExpertSenderApi\RequestSender;
-use Pzelant\ExpertSenderApi\ExpertSenderApi;
-use Pzelant\ExpertSenderApi\Model\SubscribersRequest\SubscriberInfo;
-use Pzelant\ExpertSenderApi\Model\SubscribersRequest\Options;
-use Pzelant\ExpertSenderApi\Model\SubscribersPostRequest\Identifier;
-use Pzelant\ExpertSenderApi\Enum\SubscribersPostRequest\Mode;
+use Bridit\ExpertSenderApi\RequestSender;
+use Bridit\ExpertSenderApi\ExpertSenderApi;
+use Bridit\ExpertSenderApi\Model\SubscribersRequest\SubscriberInfo;
+use Bridit\ExpertSenderApi\Model\SubscribersRequest\Options;
+use Bridit\ExpertSenderApi\Model\SubscribersPostRequest\Identifier;
+use Bridit\ExpertSenderApi\Enum\SubscribersPostRequest\Mode;
 
 // ...
 
@@ -97,8 +97,8 @@ if ($addResult->isOk()) {
 ### Create API
 ```php
 use GuzzleHttp\Client;
-use Pzelant\ExpertSenderApi\RequestSender;
-use Pzelant\ExpertSenderApi\ExpertSenderApi;
+use Bridit\ExpertSenderApi\RequestSender;
+use Bridit\ExpertSenderApi\ExpertSenderApi;
 
 // ...
 
@@ -131,9 +131,9 @@ if ($response->isOk()) {
 ```php
 // ...
 
-use Pzelant\ExpertSenderApi\Model\TransactionalPostRequest\Receiver;
-use Pzelant\ExpertSenderApi\Model\TransactionalPostRequest\Snippet;
-use Pzelant\ExpertSenderApi\Model\TransactionalPostRequest\Attachment;
+use Bridit\ExpertSenderApi\Model\TransactionalPostRequest\Receiver;
+use Bridit\ExpertSenderApi\Model\TransactionalPostRequest\Snippet;
+use Bridit\ExpertSenderApi\Model\TransactionalPostRequest\Attachment;
 
 // ...
 
@@ -172,9 +172,9 @@ if ($response->isOk()) {
 ```php
 // ...
 
-use Pzelant\ExpertSenderApi\Model\TransactionalPostRequest\Receiver;
-use Pzelant\ExpertSenderApi\Model\TransactionalPostRequest\Snippet;
-use Pzelant\ExpertSenderApi\Model\TransactionalPostRequest\Attachment;
+use Bridit\ExpertSenderApi\Model\TransactionalPostRequest\Receiver;
+use Bridit\ExpertSenderApi\Model\TransactionalPostRequest\Snippet;
+use Bridit\ExpertSenderApi\Model\TransactionalPostRequest\Attachment;
 
 // ...
 
@@ -213,7 +213,7 @@ if ($response->isOk()) {
 ```php
 // ...
 
-use Pzelant\ExpertSenderApi\Model\TriggersPostRequest\Receiver;
+use Bridit\ExpertSenderApi\Model\TriggersPostRequest\Receiver;
 
 // ...
 
@@ -256,9 +256,9 @@ $eventsHistoryResponse = $api->subscribers()->getEventsHistory($subscriberEmail)
 ```php
 // ...
 
-use Pzelant\ExpertSenderApi\Model\SubscribersPostRequest\Options;
-use Pzelant\ExpertSenderApi\Model\SubscribersPostRequest\Identifier;
-use Pzelant\ExpertSenderApi\Enum\SubscribersPostRequest\Mode;
+use Bridit\ExpertSenderApi\Model\SubscribersPostRequest\Options;
+use Bridit\ExpertSenderApi\Model\SubscribersPostRequest\Identifier;
+use Bridit\ExpertSenderApi\Enum\SubscribersPostRequest\Mode;
 
 // ...
 
@@ -347,8 +347,8 @@ $api->subscribers()->deleteByEmail($subscriberEmail);
 ```php
 // ...
 
-use Pzelant\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\RemoveType;
-use Pzelant\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\Option;
+use Bridit\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\RemoveType;
+use Bridit\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\Option;
 
 // ...
 
@@ -513,7 +513,7 @@ if ($response->isOk()) {
 [documentation](https://sites.google.com/a/expertsender.com/api-documentation/methods/get-bounces-list)
 ```php
 // ...
-use Pzelant\ExpertSenderApi\Enum\BouncesGetRequest\BounceType;
+use Bridit\ExpertSenderApi\Enum\BouncesGetRequest\BounceType;
 // ...
 $startDate = new \DateTime('2015-01-01');
 $endDate = new \DateTime('2016-01-01');
@@ -578,10 +578,10 @@ if ($response->isOk()) {
 [documentation](https://sites.google.com/a/expertsender.com/api-documentation/methods/datatables/get-data)
 ```php
 // ...
-use Pzelant\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Direction;
-use Pzelant\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Operator;
-use Pzelant\ExpertSenderApi\Model\WhereCondition;
-use Pzelant\ExpertSenderApi\Model\DataTablesGetDataPostRequest\OrderByRule;
+use Bridit\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Direction;
+use Bridit\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Operator;
+use Bridit\ExpertSenderApi\Model\WhereCondition;
+use Bridit\ExpertSenderApi\Model\DataTablesGetDataPostRequest\OrderByRule;
 // ...
 // limit is optional, and null by default
 $limit = 30;
@@ -622,8 +622,8 @@ if ($response->isOk()) {
 [documentation](https://sites.google.com/a/expertsender.com/api-documentation/methods/datatables/count-rows)
 ```php
 // ...
-use Pzelant\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Operator;
-use Pzelant\ExpertSenderApi\Model\WhereCondition;
+use Bridit\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Operator;
+use Bridit\ExpertSenderApi\Model\WhereCondition;
 // ...
 $response = $api->dataTables()->getRowsCount(
     'table-name',
@@ -657,8 +657,8 @@ Use [add multiple rows method](#add-multiple-rows) to insert one row
 [documentation](https://sites.google.com/a/expertsender.com/api-documentation/methods/datatables/add-multiple-rows)
 ```php
 // ...
-use Pzelant\ExpertSenderApi\Model\Column;
-use Pzelant\ExpertSenderApi\Model\DataTablesAddMultipleRowsPostRequest\Row;
+use Bridit\ExpertSenderApi\Model\Column;
+use Bridit\ExpertSenderApi\Model\DataTablesAddMultipleRowsPostRequest\Row;
 // ...
 $response = $api->dataTables()->addRows(
     // table name to insert rows
@@ -697,7 +697,7 @@ if ($response->isOk()) {
 [documentation](https://sites.google.com/a/expertsender.com/api-documentation/methods/datatables/update-row)
 ```php
 // ...
-use Pzelant\ExpertSenderApi\Model\Column;
+use Bridit\ExpertSenderApi\Model\Column;
 // ...
 $response = $api->dataTables()->updateRow(
     // table name 
@@ -729,7 +729,7 @@ if ($response->isOk()) {
 [documentation](https://sites.google.com/a/expertsender.com/api-documentation/methods/datatables/delete-row)
 ```php
 // ...
-use Pzelant\ExpertSenderApi\Model\Column;
+use Bridit\ExpertSenderApi\Model\Column;
 // ...
 $response = $api->dataTables()->deleteOneRow(
     // table name to update rows
@@ -755,8 +755,8 @@ if ($response->isOk()) {
 [documentation](https://sites.google.com/a/expertsender.com/api-documentation/methods/datatables/delete-rows)
 ```php
 // ...
-use Pzelant\ExpertSenderApi\Model\DataTablesDeleteRowsPostRequest\Filter;
-use Pzelant\ExpertSenderApi\Enum\DataTablesDeleteRowsPostRequest\FilterOperator;
+use Bridit\ExpertSenderApi\Model\DataTablesDeleteRowsPostRequest\Filter;
+use Bridit\ExpertSenderApi\Enum\DataTablesDeleteRowsPostRequest\FilterOperator;
 // ...
 $response = $api->dataTables()->deleteRows(
     'table-name',

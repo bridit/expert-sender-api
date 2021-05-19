@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Model;
+namespace Bridit\ExpertSenderApi\Model;
 
 use Webmozart\Assert\Assert;
 

@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests\Request;
+namespace Bridit\ExpertSenderApi\Tests\Request;
 
-use Pzelant\ExpertSenderApi\Enum\HttpMethod;
-use Pzelant\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\Option;
-use Pzelant\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\RemoveType;
-use Pzelant\ExpertSenderApi\Request\RemovedSubscriberGetRequest;
+use Bridit\ExpertSenderApi\Enum\HttpMethod;
+use Bridit\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\Option;
+use Bridit\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\RemoveType;
+use Bridit\ExpertSenderApi\Request\RemovedSubscriberGetRequest;
 use PHPUnit\Framework\Assert;
 
 /**
@@ -14,7 +14,7 @@ use PHPUnit\Framework\Assert;
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class RemovedSubscriberGetRequestTest extends \PHPUnit_Framework_TestCase
+class RemovedSubscriberGetRequestTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Test

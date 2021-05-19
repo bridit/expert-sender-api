@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Response;
+namespace Bridit\ExpertSenderApi\Response;
 
-use Pzelant\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
-use Pzelant\ExpertSenderApi\Model\SnoozedSubscribersGetResponse\SnoozedSubscriber;
-use Pzelant\ExpertSenderApi\SpecificXmlMethodResponse;
+use Bridit\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
+use Bridit\ExpertSenderApi\Model\SnoozedSubscribersGetResponse\SnoozedSubscriber;
+use Bridit\ExpertSenderApi\SpecificXmlMethodResponse;
 
 /**
  * Response of get snoozed subscribers request

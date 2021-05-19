@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Model\SubscribersPostRequest;
+namespace Bridit\ExpertSenderApi\Model\SubscribersPostRequest;
 
-use Pzelant\ExpertSenderApi\Enum\DataType;
+use Bridit\ExpertSenderApi\Enum\DataType;
 
 /**
  * Value of property

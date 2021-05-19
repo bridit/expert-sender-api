@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Response;
+namespace Bridit\ExpertSenderApi\Response;
 
-use Pzelant\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
-use Pzelant\ExpertSenderApi\Model\SubscribersGetResponse\Event;
-use Pzelant\ExpertSenderApi\SpecificXmlMethodResponse;
+use Bridit\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
+use Bridit\ExpertSenderApi\Model\SubscribersGetResponse\Event;
+use Bridit\ExpertSenderApi\SpecificXmlMethodResponse;
 
 /**
  * Subscriber's history of events

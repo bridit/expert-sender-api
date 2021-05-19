@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Response;
+namespace Bridit\ExpertSenderApi\Response;
 
-use Pzelant\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
-use Pzelant\ExpertSenderApi\Model\RemovedSubscribersGetResponse\RemovedSubscriber;
-use Pzelant\ExpertSenderApi\ResponseInterface;
-use Pzelant\ExpertSenderApi\SpecificXmlMethodResponse;
-use Pzelant\ExpertSenderApi\SubscriberDataParser;
+use Bridit\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
+use Bridit\ExpertSenderApi\Model\RemovedSubscribersGetResponse\RemovedSubscriber;
+use Bridit\ExpertSenderApi\ResponseInterface;
+use Bridit\ExpertSenderApi\SpecificXmlMethodResponse;
+use Bridit\ExpertSenderApi\SubscriberDataParser;
 
 /**
  * Response with removed subscribers data

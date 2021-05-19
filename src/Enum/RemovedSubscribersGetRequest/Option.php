@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Enum\RemovedSubscribersGetRequest;
+namespace Bridit\ExpertSenderApi\Enum\RemovedSubscribersGetRequest;
 
 use MyCLabs\Enum\Enum;
 

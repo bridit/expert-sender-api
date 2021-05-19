@@ -1,17 +1,18 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests;
+namespace Bridit\ExpertSenderApi\Tests;
 
-use Pzelant\ExpertSenderApi\Response;
 use PHPUnit\Framework\Assert;
+use PHPUnit\Framework\TestCase;
+use Bridit\ExpertSenderApi\Response;
 
 /**
  * ResponseTest
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class ResponseTest extends \PHPUnit_Framework_TestCase
+class ResponseTest extends TestCase
 {
     /**
      * Test

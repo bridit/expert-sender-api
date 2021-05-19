@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Response;
+namespace Bridit\ExpertSenderApi\Response;
 
-use Pzelant\ExpertSenderApi\Model\SubscribersPostResponse\SubscriberData;
-use Pzelant\ExpertSenderApi\SpecificXmlMethodResponse;
-use Pzelant\ExpertSenderApi\Utils;
+use Bridit\ExpertSenderApi\Model\SubscribersPostResponse\SubscriberData;
+use Bridit\ExpertSenderApi\SpecificXmlMethodResponse;
+use Bridit\ExpertSenderApi\Utils;
 
 /**
  * Response of add/edit subscriber request

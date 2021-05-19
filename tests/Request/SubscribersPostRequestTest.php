@@ -1,19 +1,19 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests\Request;
+namespace Bridit\ExpertSenderApi\Tests\Request;
 
-use Pzelant\ExpertSenderApi\Enum\HttpMethod;
-use Pzelant\ExpertSenderApi\Model\SubscribersPostRequest\Identifier;
-use Pzelant\ExpertSenderApi\Model\SubscribersPostRequest\Property;
-use Pzelant\ExpertSenderApi\Model\SubscribersPostRequest\Value;
-use Pzelant\ExpertSenderApi\Enum\SubscribersPostRequest\Mode;
-use Pzelant\ExpertSenderApi\Model\SubscribersPostRequest\Options;
-use Pzelant\ExpertSenderApi\Model\SubscribersPostRequest\SubscriberInfo;
-use Pzelant\ExpertSenderApi\Request\SubscribersPostRequest;
+use Bridit\ExpertSenderApi\Enum\HttpMethod;
+use Bridit\ExpertSenderApi\Model\SubscribersPostRequest\Identifier;
+use Bridit\ExpertSenderApi\Model\SubscribersPostRequest\Property;
+use Bridit\ExpertSenderApi\Model\SubscribersPostRequest\Value;
+use Bridit\ExpertSenderApi\Enum\SubscribersPostRequest\Mode;
+use Bridit\ExpertSenderApi\Model\SubscribersPostRequest\Options;
+use Bridit\ExpertSenderApi\Model\SubscribersPostRequest\SubscriberInfo;
+use Bridit\ExpertSenderApi\Request\SubscribersPostRequest;
 use PHPUnit\Framework\Assert;
 
-class SubscribersPostRequestTest extends \PHPUnit_Framework_TestCase
+class SubscribersPostRequestTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Test
@@ -25,6 +25,7 @@ class SubscribersPostRequestTest extends \PHPUnit_Framework_TestCase
             25,
             Mode::ADD_AND_UPDATE()
         );
+
         $subscriberData->setFirstName('firstname');
         $subscriberData->setName('firstname lastname');
         $subscriberData->setLastName('lastname');
@@ -55,8 +56,8 @@ class SubscribersPostRequestTest extends \PHPUnit_Framework_TestCase
         $expectedXml = '<MultiData><Subscriber><Mode>AddAndUpdate</Mode><ListId>25</ListId><MatchingMode>Email'
             . '</MatchingMode><Email>mail@mail.ru</Email><Force>true</Force>'
             . '<AllowUnsubscribed>false</AllowUnsubscribed><AllowRemoved>false</AllowRemoved>'
-            . '<CustomSubscriberId>custom-subscriber-id</CustomSubscriberId><FirstName>firstname'
-            . '</FirstName><LastName>lastname</LastName><Name>firstname lastname</Name><Ip>127.0.0.1</Ip>'
+            . '<CustomSubscriberId>custom-subscriber-id</CustomSubscriberId><Firstname>firstname'
+            . '</Firstname><Lastname>lastname</Lastname><Name>firstname lastname</Name><Ip>127.0.0.1</Ip>'
             . '<TrackingCode>tracking code</TrackingCode><Vendor>vendor</Vendor><Properties><Property><Id>1</Id>'
             . '<Value xsi:type="xs:int">24</Value></Property><Property><Id>2</Id><Value xsi:type="xs:string">'
             . 'string</Value></Property><Property><Id>3</Id><Value xsi:type="xs:boolean">true</Value></Property>'

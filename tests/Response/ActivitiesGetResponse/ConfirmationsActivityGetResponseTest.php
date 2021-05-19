@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests\Response\ActivitiesGetResponse;
+namespace Bridit\ExpertSenderApi\Tests\Response\ActivitiesGetResponse;
 
-use Pzelant\ExpertSenderApi\Model\ActivitiesGetResponse\ConfirmationActivity;
-use Pzelant\ExpertSenderApi\Response;
-use Pzelant\ExpertSenderApi\Response\ActivitiesGetResponse\ConfirmationsActivityGetResponse;
+use Bridit\ExpertSenderApi\Model\ActivitiesGetResponse\ConfirmationActivity;
+use Bridit\ExpertSenderApi\Response;
+use Bridit\ExpertSenderApi\Response\ActivitiesGetResponse\ConfirmationsActivityGetResponse;
 use function iter\toArray;
 use PHPUnit\Framework\Assert;
 
@@ -14,7 +14,7 @@ use PHPUnit\Framework\Assert;
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class ConfirmationsActivityGetResponseTest extends \PHPUnit_Framework_TestCase
+class ConfirmationsActivityGetResponseTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Test

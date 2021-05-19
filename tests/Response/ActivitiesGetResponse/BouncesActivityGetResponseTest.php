@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests\Response\ActivitiesGetResponse;
+namespace Bridit\ExpertSenderApi\Tests\Response\ActivitiesGetResponse;
 
-use Pzelant\ExpertSenderApi\Enum\ActivitiesGetRequest\BounceReason;
-use Pzelant\ExpertSenderApi\Model\ActivitiesGetResponse\BounceActivity;
-use Pzelant\ExpertSenderApi\Response;
-use Pzelant\ExpertSenderApi\Response\ActivitiesGetResponse\BouncesActivityGetResponse;
+use Bridit\ExpertSenderApi\Enum\ActivitiesGetRequest\BounceReason;
+use Bridit\ExpertSenderApi\Model\ActivitiesGetResponse\BounceActivity;
+use Bridit\ExpertSenderApi\Response;
+use Bridit\ExpertSenderApi\Response\ActivitiesGetResponse\BouncesActivityGetResponse;
 use function iter\toArray;
 use PHPUnit\Framework\Assert;
 
@@ -15,7 +15,7 @@ use PHPUnit\Framework\Assert;
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class BouncesActivityGetResponseTest extends \PHPUnit_Framework_TestCase
+class BouncesActivityGetResponseTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Test

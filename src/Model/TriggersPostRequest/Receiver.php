@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Model\TriggersPostRequest;
+namespace Bridit\ExpertSenderApi\Model\TriggersPostRequest;
 
 use Webmozart\Assert\Assert;
 

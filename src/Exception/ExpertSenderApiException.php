@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Exception;
+namespace Bridit\ExpertSenderApi\Exception;
 
 /**
  * ExpertSender API Exception

@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests\Response;
+namespace Bridit\ExpertSenderApi\Tests\Response;
 
-use Pzelant\ExpertSenderApi\Model\SnoozedSubscribersGetResponse\SnoozedSubscriber;
-use Pzelant\ExpertSenderApi\Response;
-use Pzelant\ExpertSenderApi\Response\SnoozedSubscribersGetResponse;
+use Bridit\ExpertSenderApi\Model\SnoozedSubscribersGetResponse\SnoozedSubscriber;
+use Bridit\ExpertSenderApi\Response;
+use Bridit\ExpertSenderApi\Response\SnoozedSubscribersGetResponse;
 use function iter\toArray;
 use PHPUnit\Framework\Assert;
 
@@ -14,7 +14,7 @@ use PHPUnit\Framework\Assert;
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class SnoozedSubscribersGetResponseTest extends \PHPUnit_Framework_TestCase
+class SnoozedSubscribersGetResponseTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Test

@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests\Request;
+namespace Bridit\ExpertSenderApi\Tests\Request;
 
-use Pzelant\ExpertSenderApi\Enum\ActivitiesGetRequest\ActivityType;
-use Pzelant\ExpertSenderApi\Enum\ActivitiesGetRequest\ReturnColumnsSet;
-use Pzelant\ExpertSenderApi\Enum\HttpMethod;
-use Pzelant\ExpertSenderApi\Request\ActivitiesGetRequest;
+use Bridit\ExpertSenderApi\Enum\ActivitiesGetRequest\ActivityType;
+use Bridit\ExpertSenderApi\Enum\ActivitiesGetRequest\ReturnColumnsSet;
+use Bridit\ExpertSenderApi\Enum\HttpMethod;
+use Bridit\ExpertSenderApi\Request\ActivitiesGetRequest;
 use PHPUnit\Framework\Assert;
 
 /**
@@ -14,7 +14,7 @@ use PHPUnit\Framework\Assert;
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class ActivitiesGetRequestTest extends \PHPUnit_Framework_TestCase
+class ActivitiesGetRequestTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Test

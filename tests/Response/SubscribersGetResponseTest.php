@@ -1,15 +1,15 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests\Response;
+namespace Bridit\ExpertSenderApi\Tests\Response;
 
-use Pzelant\ExpertSenderApi\Enum\SubscribersResponse\StateOnListStatus;
-use Pzelant\ExpertSenderApi\Enum\SubscriberPropertySource;
-use Pzelant\ExpertSenderApi\Enum\SubscribersResponse\SubscriberPropertyType;
-use Pzelant\ExpertSenderApi\Enum\DataType;
-use Pzelant\ExpertSenderApi\Model\SubscribersGetResponse\SubscriberProperty;
-use Pzelant\ExpertSenderApi\Response;
-use Pzelant\ExpertSenderApi\Response\SubscribersGetFullResponse;
+use Bridit\ExpertSenderApi\Enum\SubscribersResponse\StateOnListStatus;
+use Bridit\ExpertSenderApi\Enum\SubscriberPropertySource;
+use Bridit\ExpertSenderApi\Enum\SubscribersResponse\SubscriberPropertyType;
+use Bridit\ExpertSenderApi\Enum\DataType;
+use Bridit\ExpertSenderApi\Model\SubscribersGetResponse\SubscriberProperty;
+use Bridit\ExpertSenderApi\Response;
+use Bridit\ExpertSenderApi\Response\SubscribersGetFullResponse;
 use PHPUnit\Framework\Assert;
 
 /**
@@ -17,7 +17,7 @@ use PHPUnit\Framework\Assert;
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class SubscribersGetResponseTest extends \PHPUnit_Framework_TestCase
+class SubscribersGetResponseTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Test
@@ -133,12 +133,10 @@ class SubscribersGetResponseTest extends \PHPUnit_Framework_TestCase
         }
     }
 
-    /**
-     * @expectedException \UnexpectedValueException
-     */
-    public function testThrowExceptionIfTypeOfDataIsUnknown()
+  public function testThrowExceptionIfTypeOfDataIsUnknown()
     {
-        $xml = '<ApiResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+      $this->expectException(\UnexpectedValueException::class);
+      $xml = '<ApiResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema"
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Data><Properties>
             <Property>
                 <Id>2</Id>

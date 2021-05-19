@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Response;
+namespace Bridit\ExpertSenderApi\Response;
 
-use Pzelant\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
-use Pzelant\ExpertSenderApi\Model\SubscriberData;
-use Pzelant\ExpertSenderApi\ResponseInterface;
-use Pzelant\ExpertSenderApi\SubscriberDataParser;
+use Bridit\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
+use Bridit\ExpertSenderApi\Model\SubscriberData;
+use Bridit\ExpertSenderApi\ResponseInterface;
+use Bridit\ExpertSenderApi\SubscriberDataParser;
 
 /**
  * Full info about subscriber

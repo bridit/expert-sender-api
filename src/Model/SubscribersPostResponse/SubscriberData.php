@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Model\SubscribersPostResponse;
+namespace Bridit\ExpertSenderApi\Model\SubscribersPostResponse;
 
 /**
  * Subscriber info after add/edit

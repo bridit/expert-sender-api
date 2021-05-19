@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Model\DataTablesAddMultipleRowsPostRequest;
+namespace Bridit\ExpertSenderApi\Model\DataTablesAddMultipleRowsPostRequest;
 
-use Pzelant\ExpertSenderApi\Model\Column;
+use Bridit\ExpertSenderApi\Model\Column;
 use Webmozart\Assert\Assert;
 
 /**

@@ -1,27 +1,27 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Resource;
+namespace Bridit\ExpertSenderApi\Resource;
 
-use Pzelant\ExpertSenderApi\AbstractResource;
-use Pzelant\ExpertSenderApi\Model\Column;
-use Pzelant\ExpertSenderApi\Model\DataTablesAddMultipleRowsPostRequest\Row;
-use Pzelant\ExpertSenderApi\Model\DataTablesDeleteRowsPostRequest\Filter;
-use Pzelant\ExpertSenderApi\Model\DataTablesGetDataPostRequest\OrderByRule;
-use Pzelant\ExpertSenderApi\Model\WhereCondition;
-use Pzelant\ExpertSenderApi\Request\DataTablesAddMultipleRowsPostRequest;
-use Pzelant\ExpertSenderApi\Request\DataTablesClearTableRequest;
-use Pzelant\ExpertSenderApi\Request\DataTablesDeleteRowPostRequest;
-use Pzelant\ExpertSenderApi\Request\DataTablesDeleteRowsPostRequest;
-use Pzelant\ExpertSenderApi\Request\DataTablesGetDataCountRequest;
-use Pzelant\ExpertSenderApi\Request\DataTablesGetDataPostRequest;
-use Pzelant\ExpertSenderApi\Request\DataTablesGetTablesRequest;
-use Pzelant\ExpertSenderApi\Request\DataTablesUpdateRowPostRequest;
-use Pzelant\ExpertSenderApi\Response\CountResponse;
-use Pzelant\ExpertSenderApi\Response\DataTablesGetTablesDetailsResponse;
-use Pzelant\ExpertSenderApi\Response\DataTablesGetTablesSummaryResponse;
-use Pzelant\ExpertSenderApi\ResponseInterface;
-use Pzelant\ExpertSenderApi\SpecificCsvMethodResponse;
+use Bridit\ExpertSenderApi\AbstractResource;
+use Bridit\ExpertSenderApi\Model\Column;
+use Bridit\ExpertSenderApi\Model\DataTablesAddMultipleRowsPostRequest\Row;
+use Bridit\ExpertSenderApi\Model\DataTablesDeleteRowsPostRequest\Filter;
+use Bridit\ExpertSenderApi\Model\DataTablesGetDataPostRequest\OrderByRule;
+use Bridit\ExpertSenderApi\Model\WhereCondition;
+use Bridit\ExpertSenderApi\Request\DataTablesAddMultipleRowsPostRequest;
+use Bridit\ExpertSenderApi\Request\DataTablesClearTableRequest;
+use Bridit\ExpertSenderApi\Request\DataTablesDeleteRowPostRequest;
+use Bridit\ExpertSenderApi\Request\DataTablesDeleteRowsPostRequest;
+use Bridit\ExpertSenderApi\Request\DataTablesGetDataCountRequest;
+use Bridit\ExpertSenderApi\Request\DataTablesGetDataPostRequest;
+use Bridit\ExpertSenderApi\Request\DataTablesGetTablesRequest;
+use Bridit\ExpertSenderApi\Request\DataTablesUpdateRowPostRequest;
+use Bridit\ExpertSenderApi\Response\CountResponse;
+use Bridit\ExpertSenderApi\Response\DataTablesGetTablesDetailsResponse;
+use Bridit\ExpertSenderApi\Response\DataTablesGetTablesSummaryResponse;
+use Bridit\ExpertSenderApi\ResponseInterface;
+use Bridit\ExpertSenderApi\SpecificCsvMethodResponse;
 
 /**
  * Data tables resource

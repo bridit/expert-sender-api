@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Model\RemovedSubscribersGetResponse;
+namespace Bridit\ExpertSenderApi\Model\RemovedSubscribersGetResponse;
 
-use Pzelant\ExpertSenderApi\Model\SubscriberData;
+use Bridit\ExpertSenderApi\Model\SubscriberData;
 
 /**
  * Removed subscriber

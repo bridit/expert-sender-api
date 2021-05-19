@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests\Request;
+namespace Bridit\ExpertSenderApi\Tests\Request;
 
-use Pzelant\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Operator;
-use Pzelant\ExpertSenderApi\Enum\HttpMethod;
-use Pzelant\ExpertSenderApi\Model\WhereCondition;
-use Pzelant\ExpertSenderApi\Request\DataTablesGetDataCountRequest;
+use Bridit\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Operator;
+use Bridit\ExpertSenderApi\Enum\HttpMethod;
+use Bridit\ExpertSenderApi\Model\WhereCondition;
+use Bridit\ExpertSenderApi\Request\DataTablesGetDataCountRequest;
 use PHPUnit\Framework\Assert;
 
 /**
@@ -14,7 +14,7 @@ use PHPUnit\Framework\Assert;
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class DataTablesGetDataCountRequestTest extends \PHPUnit_Framework_TestCase
+class DataTablesGetDataCountRequestTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Test

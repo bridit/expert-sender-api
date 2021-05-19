@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Response;
+namespace Bridit\ExpertSenderApi\Response;
 
-use Pzelant\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
-use Pzelant\ExpertSenderApi\Model\DataTablesGetTablesSummaryResponse\TableSummary;
-use Pzelant\ExpertSenderApi\SpecificXmlMethodResponse;
+use Bridit\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
+use Bridit\ExpertSenderApi\Model\DataTablesGetTablesSummaryResponse\TableSummary;
+use Bridit\ExpertSenderApi\SpecificXmlMethodResponse;
 
 /**
  * Response with tables summary

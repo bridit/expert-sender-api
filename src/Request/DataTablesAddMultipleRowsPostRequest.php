@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Request;
+namespace Bridit\ExpertSenderApi\Request;
 
-use Pzelant\ExpertSenderApi\Enum\HttpMethod;
-use Pzelant\ExpertSenderApi\Model\DataTablesAddMultipleRowsPostRequest\Row;
-use Pzelant\ExpertSenderApi\RequestInterface;
-use Pzelant\ExpertSenderApi\Traits\ColumnToXmlConverterTrait;
+use Bridit\ExpertSenderApi\Enum\HttpMethod;
+use Bridit\ExpertSenderApi\Model\DataTablesAddMultipleRowsPostRequest\Row;
+use Bridit\ExpertSenderApi\RequestInterface;
+use Bridit\ExpertSenderApi\Traits\ColumnToXmlConverterTrait;
 
 /**
  * Request for POST DataTablesAddMultipleRows

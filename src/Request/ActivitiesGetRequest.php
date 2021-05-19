@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Request;
+namespace Bridit\ExpertSenderApi\Request;
 
-use Pzelant\ExpertSenderApi\Enum\ActivitiesGetRequest\ActivityType;
-use Pzelant\ExpertSenderApi\Enum\ActivitiesGetRequest\ReturnColumnsSet;
-use Pzelant\ExpertSenderApi\Enum\HttpMethod;
-use Pzelant\ExpertSenderApi\RequestInterface;
-use Pzelant\ExpertSenderApi\Utils;
+use Bridit\ExpertSenderApi\Enum\ActivitiesGetRequest\ActivityType;
+use Bridit\ExpertSenderApi\Enum\ActivitiesGetRequest\ReturnColumnsSet;
+use Bridit\ExpertSenderApi\Enum\HttpMethod;
+use Bridit\ExpertSenderApi\RequestInterface;
+use Bridit\ExpertSenderApi\Utils;
 
 /**
  * Get subscriber activity request

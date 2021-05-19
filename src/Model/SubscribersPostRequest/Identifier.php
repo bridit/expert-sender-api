@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Model\SubscribersPostRequest;
+namespace Bridit\ExpertSenderApi\Model\SubscribersPostRequest;
 
-use Pzelant\ExpertSenderApi\Enum\SubscribersPostRequest\MatchingMode;
-use Pzelant\ExpertSenderApi\Exception\InvalidUseOfClassException;
+use Bridit\ExpertSenderApi\Enum\SubscribersPostRequest\MatchingMode;
+use Bridit\ExpertSenderApi\Exception\InvalidUseOfClassException;
 
 /**
  * Identifier of subscriber for add/edit request

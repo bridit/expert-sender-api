@@ -1,16 +1,16 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi;
+namespace Bridit\ExpertSenderApi;
 
-use Pzelant\ExpertSenderApi\Enum\BouncesGetRequest\BounceType;
-use Pzelant\ExpertSenderApi\Request\BouncesGetRequest;
-use Pzelant\ExpertSenderApi\Request\TimeGetRequest;
-use Pzelant\ExpertSenderApi\Resource\DataTablesResource;
-use Pzelant\ExpertSenderApi\Resource\MessagesResource;
-use Pzelant\ExpertSenderApi\Resource\SubscribersResource;
-use Pzelant\ExpertSenderApi\Response\BouncesGetResponse;
-use Pzelant\ExpertSenderApi\Response\TimeGetResponse;
+use Bridit\ExpertSenderApi\Enum\BouncesGetRequest\BounceType;
+use Bridit\ExpertSenderApi\Request\BouncesGetRequest;
+use Bridit\ExpertSenderApi\Request\TimeGetRequest;
+use Bridit\ExpertSenderApi\Resource\DataTablesResource;
+use Bridit\ExpertSenderApi\Resource\MessagesResource;
+use Bridit\ExpertSenderApi\Resource\SubscribersResource;
+use Bridit\ExpertSenderApi\Response\BouncesGetResponse;
+use Bridit\ExpertSenderApi\Response\TimeGetResponse;
 
 /**
  * Expert Sender API

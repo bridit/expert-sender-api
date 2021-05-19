@@ -1,17 +1,17 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests\Request;
+namespace Bridit\ExpertSenderApi\Tests\Request;
 
-use Pzelant\ExpertSenderApi\Enum\HttpMethod;
-use Pzelant\ExpertSenderApi\Request\SnoozedSubscribersPostRequest;
+use Bridit\ExpertSenderApi\Enum\HttpMethod;
+use Bridit\ExpertSenderApi\Request\SnoozedSubscribersPostRequest;
 
 /**
  * SnoozedSubscribersPostRequestTest
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class SnoozedSubscribersPostRequestTest extends \PHPUnit_Framework_TestCase
+class SnoozedSubscribersPostRequestTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Test
@@ -57,23 +57,21 @@ class SnoozedSubscribersPostRequestTest extends \PHPUnit_Framework_TestCase
 
     /**
      * Test
-     *
-     * @expectedException \InvalidArgumentException
-     * @expectedExceptionMessage Expected a value greater than or equal to 1. Got: 0
      */
     public function testConstructorShouldThrowExceptionIfSnoozeWeeksLessThanOne()
     {
-        SnoozedSubscribersPostRequest::createWithId(567, 0);
+      $this->expectException(\InvalidArgumentException::class);
+      $this->expectExceptionMessage("Expected a value greater than or equal to 1. Got: 0");
+      SnoozedSubscribersPostRequest::createWithId(567, 0);
     }
 
     /**
      * Test
-     *
-     * @expectedException \InvalidArgumentException
-     * @expectedExceptionMessage Expected a value less than or equal to 26. Got: 27
      */
     public function testConstructorShouldThrowExceptionIfSnoozeWeeksGreaterThan26()
     {
-        SnoozedSubscribersPostRequest::createWithId(567, 27);
+      $this->expectException(\InvalidArgumentException::class);
+      $this->expectExceptionMessage("Expected a value less than or equal to 26. Got: 27");
+      SnoozedSubscribersPostRequest::createWithId(567, 27);
     }
 }

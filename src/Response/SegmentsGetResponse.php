@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Response;
+namespace Bridit\ExpertSenderApi\Response;
 
-use Pzelant\ExpertSenderApi\Model\SegmentsGetResponse\Segment;
-use Pzelant\ExpertSenderApi\SpecificXmlMethodResponse;
+use Bridit\ExpertSenderApi\Model\SegmentsGetResponse\Segment;
+use Bridit\ExpertSenderApi\SpecificXmlMethodResponse;
 
 /**
  * Segments GET response

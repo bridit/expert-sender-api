@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Request;
+namespace Bridit\ExpertSenderApi\Request;
 
-use Pzelant\ExpertSenderApi\Enum\HttpMethod;
-use Pzelant\ExpertSenderApi\Model\DataTablesDeleteRowsPostRequest\Filter;
-use Pzelant\ExpertSenderApi\RequestInterface;
+use Bridit\ExpertSenderApi\Enum\HttpMethod;
+use Bridit\ExpertSenderApi\Model\DataTablesDeleteRowsPostRequest\Filter;
+use Bridit\ExpertSenderApi\RequestInterface;
 use Webmozart\Assert\Assert;
 
 /**

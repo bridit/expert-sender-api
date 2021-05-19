@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests\Request;
+namespace Bridit\ExpertSenderApi\Tests\Request;
 
-use Pzelant\ExpertSenderApi\Enum\HttpMethod;
-use Pzelant\ExpertSenderApi\Request\DataTablesGetTablesRequest;
+use Bridit\ExpertSenderApi\Enum\HttpMethod;
+use Bridit\ExpertSenderApi\Request\DataTablesGetTablesRequest;
 use PHPUnit\Framework\Assert;
 
 /**
@@ -12,7 +12,7 @@ use PHPUnit\Framework\Assert;
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class DataTablesGetTablesRequestTest extends \PHPUnit_Framework_TestCase
+class DataTablesGetTablesRequestTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Test

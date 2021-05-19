@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi;
+namespace Bridit\ExpertSenderApi;
 
-use Pzelant\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
+use Bridit\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
 use function GuzzleHttp\Psr7\copy_to_stream;
 use GuzzleHttp\Psr7\Stream;
 use Psr\Http\Message\StreamInterface;

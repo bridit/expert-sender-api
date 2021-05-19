@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests\Response;
+namespace Bridit\ExpertSenderApi\Tests\Response;
 
-use Pzelant\ExpertSenderApi\Response;
-use Pzelant\ExpertSenderApi\Response\CountResponse;
+use Bridit\ExpertSenderApi\Response;
+use Bridit\ExpertSenderApi\Response\CountResponse;
 use PHPUnit\Framework\Assert;
 
 /**
@@ -12,7 +12,7 @@ use PHPUnit\Framework\Assert;
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class CountResponseTest extends \PHPUnit_Framework_TestCase
+class CountResponseTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Test

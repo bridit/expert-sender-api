@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Model;
+namespace Bridit\ExpertSenderApi\Model;
 
-use Pzelant\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Operator;
+use Bridit\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Operator;
 use Webmozart\Assert\Assert;
 
 /**

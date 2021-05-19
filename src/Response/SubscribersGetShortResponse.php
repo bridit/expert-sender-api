@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Response;
+namespace Bridit\ExpertSenderApi\Response;
 
-use Pzelant\ExpertSenderApi\Enum\SubscribersResponse\StateOnListStatus;
-use Pzelant\ExpertSenderApi\Exception\ParseResponseException;
-use Pzelant\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
-use Pzelant\ExpertSenderApi\Model\SubscribersGetResponse\StateOnList;
-use Pzelant\ExpertSenderApi\SpecificXmlMethodResponse;
+use Bridit\ExpertSenderApi\Enum\SubscribersResponse\StateOnListStatus;
+use Bridit\ExpertSenderApi\Exception\ParseResponseException;
+use Bridit\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
+use Bridit\ExpertSenderApi\Model\SubscribersGetResponse\StateOnList;
+use Bridit\ExpertSenderApi\SpecificXmlMethodResponse;
 
 /**
  * Short information about subscriber

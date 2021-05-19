@@ -1,17 +1,17 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi;
+namespace Bridit\ExpertSenderApi;
 
 use DateTime;
 use Exception;
 use Generator;
-use Pzelant\ExpertSenderApi\Enum\SubscriberPropertySource;
-use Pzelant\ExpertSenderApi\Enum\SubscribersResponse\SubscriberPropertyType;
-use Pzelant\ExpertSenderApi\Exception\ParseResponseException;
-use Pzelant\ExpertSenderApi\Model\SubscriberData;
-use Pzelant\ExpertSenderApi\Model\SubscribersGetResponse\SubscriberProperty;
-use Pzelant\ExpertSenderApi\Model\SubscribersGetResponse\SubscriberPropertyValue;
+use Bridit\ExpertSenderApi\Enum\SubscriberPropertySource;
+use Bridit\ExpertSenderApi\Enum\SubscribersResponse\SubscriberPropertyType;
+use Bridit\ExpertSenderApi\Exception\ParseResponseException;
+use Bridit\ExpertSenderApi\Model\SubscriberData;
+use Bridit\ExpertSenderApi\Model\SubscribersGetResponse\SubscriberProperty;
+use Bridit\ExpertSenderApi\Model\SubscribersGetResponse\SubscriberPropertyValue;
 use SimpleXmlElement;
 
 /**

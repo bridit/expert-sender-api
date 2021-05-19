@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests\Request;
+namespace Bridit\ExpertSenderApi\Tests\Request;
 
-use Pzelant\ExpertSenderApi\Enum\HttpMethod;
-use Pzelant\ExpertSenderApi\Model\Column;
-use Pzelant\ExpertSenderApi\Request\DataTablesDeleteRowPostRequest;
+use Bridit\ExpertSenderApi\Enum\HttpMethod;
+use Bridit\ExpertSenderApi\Model\Column;
+use Bridit\ExpertSenderApi\Request\DataTablesDeleteRowPostRequest;
 use PHPUnit\Framework\Assert;
 
 /**
@@ -13,7 +13,7 @@ use PHPUnit\Framework\Assert;
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class DataTablesDeleteRowPostRequestTest extends \PHPUnit_Framework_TestCase
+class DataTablesDeleteRowPostRequestTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Test

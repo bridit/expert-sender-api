@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Enum\BouncesGetRequest;
+namespace Bridit\ExpertSenderApi\Enum\BouncesGetRequest;
 
 use MyCLabs\Enum\Enum;
 

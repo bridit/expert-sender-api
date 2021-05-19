@@ -1,17 +1,17 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests\Request;
+namespace Bridit\ExpertSenderApi\Tests\Request;
 
-use Pzelant\ExpertSenderApi\Enum\HttpMethod;
-use Pzelant\ExpertSenderApi\Request\SegmentsGetRequest;
+use Bridit\ExpertSenderApi\Enum\HttpMethod;
+use Bridit\ExpertSenderApi\Request\SegmentsGetRequest;
 
 /**
  * SegmentsGetRequestTest
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class SegmentsGetRequestTest extends \PHPUnit_Framework_TestCase
+class SegmentsGetRequestTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Test

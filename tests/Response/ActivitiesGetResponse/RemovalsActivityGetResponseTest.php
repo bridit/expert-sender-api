@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests\Response\ActivitiesGetResponse;
+namespace Bridit\ExpertSenderApi\Tests\Response\ActivitiesGetResponse;
 
-use Pzelant\ExpertSenderApi\Enum\ActivitiesGetRequest\RemovalReason;
-use Pzelant\ExpertSenderApi\Model\ActivitiesGetResponse\RemovalActivity;
-use Pzelant\ExpertSenderApi\Response;
+use Bridit\ExpertSenderApi\Enum\ActivitiesGetRequest\RemovalReason;
+use Bridit\ExpertSenderApi\Model\ActivitiesGetResponse\RemovalActivity;
+use Bridit\ExpertSenderApi\Response;
 use function iter\toArray;
 use PHPUnit\Framework\Assert;
 
@@ -14,7 +14,7 @@ use PHPUnit\Framework\Assert;
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class RemovalsActivityGetResponseTest extends \PHPUnit_Framework_TestCase
+class RemovalsActivityGetResponseTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Test

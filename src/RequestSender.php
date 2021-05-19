@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi;
+namespace Bridit\ExpertSenderApi;
 
-use Pzelant\ExpertSenderApi\Enum\HttpMethod;
-use Pzelant\ExpertSenderApi\Event\RequestExceptionThrown;
-use Pzelant\ExpertSenderApi\Event\ResponseReceivedEvent;
+use Bridit\ExpertSenderApi\Enum\HttpMethod;
+use Bridit\ExpertSenderApi\Event\RequestExceptionThrown;
+use Bridit\ExpertSenderApi\Event\ResponseReceivedEvent;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Exception\RequestException;
 use Symfony\Component\EventDispatcher\EventDispatcher;

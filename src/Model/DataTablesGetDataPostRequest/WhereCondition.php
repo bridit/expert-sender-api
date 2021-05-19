@@ -1,18 +1,18 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Model\DataTablesGetDataPostRequest;
+namespace Bridit\ExpertSenderApi\Model\DataTablesGetDataPostRequest;
 
-use Pzelant\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Operator;
+use Bridit\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Operator;
 
 /**
  * Where condition
  *
- * @deprecated Use {@see \Pzelant\ExpertSenderApi\Model\WhereCondition} instead
+ * @deprecated Use {@see \Bridit\ExpertSenderApi\Model\WhereCondition} instead
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class WhereCondition extends \Pzelant\ExpertSenderApi\Model\WhereCondition
+class WhereCondition extends \Bridit\ExpertSenderApi\Model\WhereCondition
 {
     /**
      * Constructor.
@@ -23,7 +23,7 @@ class WhereCondition extends \Pzelant\ExpertSenderApi\Model\WhereCondition
      */
     public function __construct($columnName, Operator $operator, $value)
     {
-        @trigger_error('use \Pzelant\ExpertSenderApi\Model\WhereCondition instead', E_USER_DEPRECATED);
+        @trigger_error('use \Bridit\ExpertSenderApi\Model\WhereCondition instead', E_USER_DEPRECATED);
 
         parent::__construct($columnName, $operator, $value);
     }

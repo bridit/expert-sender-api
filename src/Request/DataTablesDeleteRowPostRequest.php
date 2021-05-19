@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Request;
+namespace Bridit\ExpertSenderApi\Request;
 
-use Pzelant\ExpertSenderApi\Enum\HttpMethod;
-use Pzelant\ExpertSenderApi\Model\Column;
-use Pzelant\ExpertSenderApi\RequestInterface;
-use Pzelant\ExpertSenderApi\Traits\ColumnToXmlConverterTrait;
+use Bridit\ExpertSenderApi\Enum\HttpMethod;
+use Bridit\ExpertSenderApi\Model\Column;
+use Bridit\ExpertSenderApi\RequestInterface;
+use Bridit\ExpertSenderApi\Traits\ColumnToXmlConverterTrait;
 use Webmozart\Assert\Assert;
 
 /**

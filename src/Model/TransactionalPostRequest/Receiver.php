@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Model\TransactionalPostRequest;
+namespace Bridit\ExpertSenderApi\Model\TransactionalPostRequest;
 
 /**
  * Receiver of transactional message

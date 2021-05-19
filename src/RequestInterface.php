@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi;
+namespace Bridit\ExpertSenderApi;
 
-use Pzelant\ExpertSenderApi\Enum\HttpMethod;
+use Bridit\ExpertSenderApi\Enum\HttpMethod;
 
 /**
  * ExpertSender API Request

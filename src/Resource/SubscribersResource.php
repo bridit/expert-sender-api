@@ -1,33 +1,33 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Resource;
+namespace Bridit\ExpertSenderApi\Resource;
 
-use Pzelant\ExpertSenderApi\AbstractResource;
-use Pzelant\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\Option;
-use Pzelant\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\RemoveType;
-use Pzelant\ExpertSenderApi\Enum\SubscribersGetRequest\DataOption;
-use Pzelant\ExpertSenderApi\Model\SubscribersPostRequest\Options;
-use Pzelant\ExpertSenderApi\Model\SubscribersPostRequest\SubscriberInfo;
-use Pzelant\ExpertSenderApi\Request\GetSegmentSizeGetRequest;
-use Pzelant\ExpertSenderApi\Request\RemovedSubscriberGetRequest;
-use Pzelant\ExpertSenderApi\Request\SegmentsGetRequest;
-use Pzelant\ExpertSenderApi\Request\SnoozedSubscribersGetRequest;
-use Pzelant\ExpertSenderApi\Request\SnoozedSubscribersPostRequest;
-use Pzelant\ExpertSenderApi\Request\SubscribersDeleteRequest;
-use Pzelant\ExpertSenderApi\Request\SubscribersGetRequest;
-use Pzelant\ExpertSenderApi\Request\SubscribersPostRequest;
-use Pzelant\ExpertSenderApi\RequestSenderInterface;
-use Pzelant\ExpertSenderApi\Response\GetSegmentSizeGetResponse;
-use Pzelant\ExpertSenderApi\Response\RemovedSubscribersGetResponse;
-use Pzelant\ExpertSenderApi\Response\SegmentsGetResponse;
-use Pzelant\ExpertSenderApi\Response\SnoozedSubscribersGetResponse;
-use Pzelant\ExpertSenderApi\Response\SubscribersGetEventsHistoryResponse;
-use Pzelant\ExpertSenderApi\Response\SubscribersGetFullResponse;
-use Pzelant\ExpertSenderApi\Response\SubscribersGetLongResponse;
-use Pzelant\ExpertSenderApi\Response\SubscribersGetShortResponse;
-use Pzelant\ExpertSenderApi\Response\SubscribersPostResponse;
-use Pzelant\ExpertSenderApi\ResponseInterface;
+use Bridit\ExpertSenderApi\AbstractResource;
+use Bridit\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\Option;
+use Bridit\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\RemoveType;
+use Bridit\ExpertSenderApi\Enum\SubscribersGetRequest\DataOption;
+use Bridit\ExpertSenderApi\Model\SubscribersPostRequest\Options;
+use Bridit\ExpertSenderApi\Model\SubscribersPostRequest\SubscriberInfo;
+use Bridit\ExpertSenderApi\Request\GetSegmentSizeGetRequest;
+use Bridit\ExpertSenderApi\Request\RemovedSubscriberGetRequest;
+use Bridit\ExpertSenderApi\Request\SegmentsGetRequest;
+use Bridit\ExpertSenderApi\Request\SnoozedSubscribersGetRequest;
+use Bridit\ExpertSenderApi\Request\SnoozedSubscribersPostRequest;
+use Bridit\ExpertSenderApi\Request\SubscribersDeleteRequest;
+use Bridit\ExpertSenderApi\Request\SubscribersGetRequest;
+use Bridit\ExpertSenderApi\Request\SubscribersPostRequest;
+use Bridit\ExpertSenderApi\RequestSenderInterface;
+use Bridit\ExpertSenderApi\Response\GetSegmentSizeGetResponse;
+use Bridit\ExpertSenderApi\Response\RemovedSubscribersGetResponse;
+use Bridit\ExpertSenderApi\Response\SegmentsGetResponse;
+use Bridit\ExpertSenderApi\Response\SnoozedSubscribersGetResponse;
+use Bridit\ExpertSenderApi\Response\SubscribersGetEventsHistoryResponse;
+use Bridit\ExpertSenderApi\Response\SubscribersGetFullResponse;
+use Bridit\ExpertSenderApi\Response\SubscribersGetLongResponse;
+use Bridit\ExpertSenderApi\Response\SubscribersGetShortResponse;
+use Bridit\ExpertSenderApi\Response\SubscribersPostResponse;
+use Bridit\ExpertSenderApi\ResponseInterface;
 
 /**
  * Subscribers resource

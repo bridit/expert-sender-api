@@ -1,17 +1,17 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests;
+namespace Bridit\ExpertSenderApi\Tests;
 
-use Pzelant\ExpertSenderApi\Enum\SubscribersGetRequest\DataOption;
-use Pzelant\ExpertSenderApi\Event\RequestExceptionThrown;
-use Pzelant\ExpertSenderApi\Event\ResponseReceivedEvent;
-use Pzelant\ExpertSenderApi\Model\ErrorMessage;
-use Pzelant\ExpertSenderApi\Model\SubscribersPostRequest\Identifier;
-use Pzelant\ExpertSenderApi\Model\SubscribersPostRequest\SubscriberInfo;
-use Pzelant\ExpertSenderApi\Request\SubscribersGetRequest;
-use Pzelant\ExpertSenderApi\Request\SubscribersPostRequest;
-use Pzelant\ExpertSenderApi\RequestSender;
+use Bridit\ExpertSenderApi\Enum\SubscribersGetRequest\DataOption;
+use Bridit\ExpertSenderApi\Event\RequestExceptionThrown;
+use Bridit\ExpertSenderApi\Event\ResponseReceivedEvent;
+use Bridit\ExpertSenderApi\Model\ErrorMessage;
+use Bridit\ExpertSenderApi\Model\SubscribersPostRequest\Identifier;
+use Bridit\ExpertSenderApi\Model\SubscribersPostRequest\SubscriberInfo;
+use Bridit\ExpertSenderApi\Request\SubscribersGetRequest;
+use Bridit\ExpertSenderApi\Request\SubscribersPostRequest;
+use Bridit\ExpertSenderApi\RequestSender;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ConnectException;
 use GuzzleHttp\Exception\RequestException;
@@ -22,13 +22,14 @@ use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
 use PHPUnit\Framework\Assert;
 use Symfony\Component\EventDispatcher\EventDispatcher;
+use PHPUnit\Framework\TestCase;
 
 /**
  * RequestSenderTest
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class RequestSenderTest extends \PHPUnit_Framework_TestCase
+class RequestSenderTest extends TestCase
 {
     /**
      * Test

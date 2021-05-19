@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests\Response;
+namespace Bridit\ExpertSenderApi\Tests\Response;
 
-use Pzelant\ExpertSenderApi\Model\SubscribersGetResponse\Event;
-use Pzelant\ExpertSenderApi\Response;
-use Pzelant\ExpertSenderApi\Response\SubscribersGetEventsHistoryResponse;
+use Bridit\ExpertSenderApi\Model\SubscribersGetResponse\Event;
+use Bridit\ExpertSenderApi\Response;
+use Bridit\ExpertSenderApi\Response\SubscribersGetEventsHistoryResponse;
 use PHPUnit\Framework\Assert;
 
 /**
@@ -13,7 +13,7 @@ use PHPUnit\Framework\Assert;
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class SubscribersGetEventsHistoryResponseTest extends \PHPUnit_Framework_TestCase
+class SubscribersGetEventsHistoryResponseTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Test

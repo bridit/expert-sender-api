@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Response;
+namespace Bridit\ExpertSenderApi\Response;
 
-use Pzelant\ExpertSenderApi\Enum\BouncesGetResponse\BounceType;
-use Pzelant\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
-use Pzelant\ExpertSenderApi\Model\BouncesGetResponse\Bounce;
-use Pzelant\ExpertSenderApi\SpecificCsvMethodResponse;
+use Bridit\ExpertSenderApi\Enum\BouncesGetResponse\BounceType;
+use Bridit\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
+use Bridit\ExpertSenderApi\Model\BouncesGetResponse\Bounce;
+use Bridit\ExpertSenderApi\SpecificCsvMethodResponse;
 
 /**
  * Bounces data

@@ -1,15 +1,15 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Request;
+namespace Bridit\ExpertSenderApi\Request;
 
-use Pzelant\ExpertSenderApi\Enum\HttpMethod;
-use Pzelant\ExpertSenderApi\Enum\SubscribersPostRequest\MatchingMode;
-use Pzelant\ExpertSenderApi\Exception\ExpertSenderApiException;
-use Pzelant\ExpertSenderApi\Model\SubscribersPostRequest\Options;
-use Pzelant\ExpertSenderApi\Model\SubscribersPostRequest\SubscriberInfo;
-use Pzelant\ExpertSenderApi\RequestInterface;
-use Pzelant\ExpertSenderApi\Utils;
+use Bridit\ExpertSenderApi\Enum\HttpMethod;
+use Bridit\ExpertSenderApi\Enum\SubscribersPostRequest\MatchingMode;
+use Bridit\ExpertSenderApi\Exception\ExpertSenderApiException;
+use Bridit\ExpertSenderApi\Model\SubscribersPostRequest\Options;
+use Bridit\ExpertSenderApi\Model\SubscribersPostRequest\SubscriberInfo;
+use Bridit\ExpertSenderApi\RequestInterface;
+use Bridit\ExpertSenderApi\Utils;
 use Webmozart\Assert\Assert;
 
 /**

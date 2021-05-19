@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests\Request;
+namespace Bridit\ExpertSenderApi\Tests\Request;
 
-use Pzelant\ExpertSenderApi\Enum\HttpMethod;
-use Pzelant\ExpertSenderApi\Model\TriggersPostRequest\Receiver;
-use Pzelant\ExpertSenderApi\Request\TriggersPostRequest;
+use Bridit\ExpertSenderApi\Enum\HttpMethod;
+use Bridit\ExpertSenderApi\Model\TriggersPostRequest\Receiver;
+use Bridit\ExpertSenderApi\Request\TriggersPostRequest;
 use PHPUnit\Framework\Assert;
 
 /**
@@ -13,7 +13,7 @@ use PHPUnit\Framework\Assert;
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class TriggersPostRequestTest extends \PHPUnit_Framework_TestCase
+class TriggersPostRequestTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Test

@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Exception;
+namespace Bridit\ExpertSenderApi\Exception;
 
-use Pzelant\ExpertSenderApi\ResponseInterface;
+use Bridit\ExpertSenderApi\ResponseInterface;
 
 /**
  * Exception while parse ExpertSender API's response

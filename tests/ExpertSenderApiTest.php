@@ -1,21 +1,22 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Tests;
+namespace Bridit\ExpertSenderApi\Tests;
 
-use Pzelant\ExpertSenderApi\Enum\SubscribersPostRequest\Mode;
-use Pzelant\ExpertSenderApi\Model\BouncesGetResponse\Bounce;
-use Pzelant\ExpertSenderApi\Model\SubscribersPostRequest\Identifier;
-use Pzelant\ExpertSenderApi\Model\TransactionalPostRequest\Receiver;
-use Pzelant\ExpertSenderApi\Model\TransactionalPostRequest\Snippet;
-use Pzelant\ExpertSenderApi\ExpertSenderApi;
-use Pzelant\ExpertSenderApi\Model\SubscribersPostRequest\SubscriberInfo;
-use Pzelant\ExpertSenderApi\RequestSender;
+use Bridit\ExpertSenderApi\Enum\SubscribersPostRequest\Mode;
+use Bridit\ExpertSenderApi\Model\BouncesGetResponse\Bounce;
+use Bridit\ExpertSenderApi\Model\SubscribersPostRequest\Identifier;
+use Bridit\ExpertSenderApi\Model\TransactionalPostRequest\Receiver;
+use Bridit\ExpertSenderApi\Model\TransactionalPostRequest\Snippet;
+use Bridit\ExpertSenderApi\ExpertSenderApi;
+use Bridit\ExpertSenderApi\Model\SubscribersPostRequest\SubscriberInfo;
+use Bridit\ExpertSenderApi\RequestSender;
 use GuzzleHttp\Client;
 use PHPUnit\Framework\Assert;
 use Symfony\Component\EventDispatcher\EventDispatcher;
+use PHPUnit\Framework\TestCase;
 
-class ExpertSenderApiTest extends \PHPUnit_Framework_TestCase
+class ExpertSenderApiTest extends TestCase
 {
     /** @var array|null */
     protected $params = null;
@@ -25,7 +26,7 @@ class ExpertSenderApiTest extends \PHPUnit_Framework_TestCase
      */
     protected $api;
 
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
 

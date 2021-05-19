@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Enum;
+namespace Bridit\ExpertSenderApi\Enum;
 
 use MyCLabs\Enum\Enum;
 

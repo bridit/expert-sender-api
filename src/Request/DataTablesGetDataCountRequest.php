@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Pzelant\ExpertSenderApi\Request;
+namespace Bridit\ExpertSenderApi\Request;
 
-use Pzelant\ExpertSenderApi\Enum\HttpMethod;
-use Pzelant\ExpertSenderApi\Model\WhereCondition;
-use Pzelant\ExpertSenderApi\RequestInterface;
-use Pzelant\ExpertSenderApi\Traits\WhereConditionToXmlConverterTrait;
+use Bridit\ExpertSenderApi\Enum\HttpMethod;
+use Bridit\ExpertSenderApi\Model\WhereCondition;
+use Bridit\ExpertSenderApi\RequestInterface;
+use Bridit\ExpertSenderApi\Traits\WhereConditionToXmlConverterTrait;
 use Webmozart\Assert\Assert;
 
 /**
