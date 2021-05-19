@@ -45,8 +45,8 @@ _fork of [LinguaLeo/expert-sender-api](https://github.com/LinguaLeo/expert-sende
         
 ## Requirements
 
-- PHP 7.1.0 or greater
-- [Guzzle 6](https://github.com/guzzle/guzzle) 
+- PHP 8.0 or greater
+- [Guzzle 6 or 7](https://github.com/guzzle/guzzle) 
 
 ## Installation
 The recommended way to install is through [Composer](http://getcomposer.org).
