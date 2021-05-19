@@ -8,7 +8,7 @@ namespace Pzelant\ExpertSenderApi\Exception;
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class NotValidXmlException extends ParseResponseException
+final class NotValidXmlException extends ParseResponseException
 {
     /**
      * @var \LibXMLError[] Xml errors

@@ -22,7 +22,7 @@ class SendsActivityGetResponse extends SpecificCsvMethodResponse
     public function getSends(): iterable
     {
         if (!$this->isOk()) {
-            throw new TryToAccessDataFromErrorResponseException($this);
+            throw TryToAccessDataFromErrorResponseException::createFromResponse($this);
         }
 
         foreach ($this->getCsvReader()->fetchAll() as $row) {

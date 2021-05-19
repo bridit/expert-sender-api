@@ -22,7 +22,7 @@ class ConfirmationsActivityGetResponse extends SpecificCsvMethodResponse
     public function getConfirmations(): iterable
     {
         if (!$this->isOk()) {
-            throw new TryToAccessDataFromErrorResponseException($this);
+            throw TryToAccessDataFromErrorResponseException::createFromResponse($this);
         }
 
         foreach ($this->getCsvReader()->fetchAll() as $row) {

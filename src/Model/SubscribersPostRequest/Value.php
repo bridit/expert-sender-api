@@ -10,7 +10,7 @@ use Pzelant\ExpertSenderApi\Enum\DataType;
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class Value
+final class Value
 {
     /**
      * @var string Value as string

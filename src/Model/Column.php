@@ -25,10 +25,10 @@ class Column
     /**
      * Constructor
      *
-     * @param $name
+     * @param string $name
      * @param int|float|string|null $value
      */
-    public function __construct(string $name, $value)
+    public function __construct(string $name, mixed $value)
     {
         Assert::nullOrScalar($value);
         Assert::notEmpty($name);

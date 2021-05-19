@@ -11,7 +11,7 @@ use Pzelant\ExpertSenderApi\Exception\InvalidUseOfClassException;
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class Identifier
+final class Identifier
 {
     /**
      * @var MatchingMode Matching mode

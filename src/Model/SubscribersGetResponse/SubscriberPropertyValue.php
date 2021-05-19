@@ -11,7 +11,7 @@ use Pzelant\ExpertSenderApi\Exception\InvalidUseOfClassException;
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class SubscriberPropertyValue
+final class SubscriberPropertyValue
 {
     /**
      * @var int|null Integer value

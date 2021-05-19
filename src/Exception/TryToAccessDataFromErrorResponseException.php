@@ -10,7 +10,7 @@ use Pzelant\ExpertSenderApi\ResponseInterface;
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class TryToAccessDataFromErrorResponseException extends ExpertSenderApiException
+final class TryToAccessDataFromErrorResponseException extends ExpertSenderApiException
 {
     /**
      * Constructor

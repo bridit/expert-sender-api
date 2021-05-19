@@ -11,7 +11,7 @@ use Pzelant\ExpertSenderApi\RequestInterface;
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class SubscribersDeleteRequest implements RequestInterface
+final class SubscribersDeleteRequest implements RequestInterface
 {
     /**
      * @var string|null Subscriber email

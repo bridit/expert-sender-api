@@ -3,9 +3,9 @@ declare(strict_types=1);
 
 namespace Pzelant\ExpertSenderApi\Event;
 
-use Pzelant\ExpertSenderApi\RequestInterface;
 use GuzzleHttp\Exception\RequestException;
-use Symfony\Component\EventDispatcher\Event;
+use Symfony\Contracts\EventDispatcher\Event;
+use Pzelant\ExpertSenderApi\RequestInterface;
 
 /**
  * Event on exception thrown while making request

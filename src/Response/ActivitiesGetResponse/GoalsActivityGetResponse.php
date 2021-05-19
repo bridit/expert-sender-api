@@ -22,7 +22,7 @@ class GoalsActivityGetResponse extends SpecificCsvMethodResponse
     public function getGoals(): iterable
     {
         if (!$this->isOk()) {
-            throw new TryToAccessDataFromErrorResponseException($this);
+            throw TryToAccessDataFromErrorResponseException::createFromResponse($this);
         }
 
         foreach ($this->getCsvReader()->fetchAll() as $row) {

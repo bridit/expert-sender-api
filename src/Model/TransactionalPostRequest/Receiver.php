@@ -10,7 +10,7 @@ namespace Pzelant\ExpertSenderApi\Model\TransactionalPostRequest;
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class Receiver
+final class Receiver
 {
     /**
      * @var int|null Subscriber ID

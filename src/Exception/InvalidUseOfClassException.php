@@ -8,7 +8,7 @@ namespace Pzelant\ExpertSenderApi\Exception;
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class InvalidUseOfClassException extends ExpertSenderApiException
+final class InvalidUseOfClassException extends ExpertSenderApiException
 {
     /**
      * Create exception for case, when property can not be null

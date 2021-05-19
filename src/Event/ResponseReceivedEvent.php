@@ -3,8 +3,8 @@ declare(strict_types=1);
 
 namespace Pzelant\ExpertSenderApi\Event;
 
+use Symfony\Contracts\EventDispatcher\Event;
 use Pzelant\ExpertSenderApi\ResponseInterface;
-use Symfony\Component\EventDispatcher\Event;
 
 /**
  * Event after response received

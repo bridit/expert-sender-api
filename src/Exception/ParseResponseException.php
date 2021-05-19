@@ -20,7 +20,7 @@ class ParseResponseException extends ExpertSenderApiException
      *
      * @return static Exception while parse ExpertSender API's response
      */
-    public static function createFromResponse(string $message, ResponseInterface $response)
+    public static function createFromResponse(string $message, ResponseInterface $response): static
     {
         return new static(
             sprintf(

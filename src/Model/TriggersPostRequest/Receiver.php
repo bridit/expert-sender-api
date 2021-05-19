@@ -10,7 +10,7 @@ use Webmozart\Assert\Assert;
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class Receiver
+final class Receiver
 {
     /**
      * @var int|null ID

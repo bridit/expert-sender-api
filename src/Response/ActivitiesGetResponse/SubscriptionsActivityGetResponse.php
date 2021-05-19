@@ -22,7 +22,7 @@ class SubscriptionsActivityGetResponse extends SpecificCsvMethodResponse
     public function getSubscriptions(): iterable
     {
         if (!$this->isOk()) {
-            throw new TryToAccessDataFromErrorResponseException($this);
+            throw TryToAccessDataFromErrorResponseException::createFromResponse($this);
         }
 
         foreach ($this->getCsvReader()->fetchAll() as $row) {

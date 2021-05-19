@@ -22,7 +22,7 @@ class ComplaintsActivityGetResponse extends SpecificCsvMethodResponse
     public function getComplaints(): iterable
     {
         if (!$this->isOk()) {
-            throw new TryToAccessDataFromErrorResponseException($this);
+            throw TryToAccessDataFromErrorResponseException::createFromResponse($this);
         }
 
         foreach ($this->getCsvReader()->fetchAll() as $row) {

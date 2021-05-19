@@ -12,7 +12,7 @@ use Webmozart\Assert\Assert;
  *
  * @author Nikita Sapogov <p.zelant@gmail.com>
  */
-class SnoozedSubscribersPostRequest implements RequestInterface
+final class SnoozedSubscribersPostRequest implements RequestInterface
 {
     /**
      * Identifier of list the subscriber will be snoozed on
