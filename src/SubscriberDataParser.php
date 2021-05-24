@@ -6,13 +6,13 @@ namespace Bridit\ExpertSenderApi;
 use DateTime;
 use Exception;
 use Generator;
-use Bridit\ExpertSenderApi\Enum\SubscriberPropertySource;
-use Bridit\ExpertSenderApi\Enum\SubscribersResponse\SubscriberPropertyType;
-use Bridit\ExpertSenderApi\Exception\ParseResponseException;
+use SimpleXMLElement;
 use Bridit\ExpertSenderApi\Model\SubscriberData;
+use Bridit\ExpertSenderApi\Enum\SubscriberPropertySource;
+use Bridit\ExpertSenderApi\Exception\ParseResponseException;
 use Bridit\ExpertSenderApi\Model\SubscribersGetResponse\SubscriberProperty;
+use Bridit\ExpertSenderApi\Enum\SubscribersResponse\SubscriberPropertyType;
 use Bridit\ExpertSenderApi\Model\SubscribersGetResponse\SubscriberPropertyValue;
-use SimpleXmlElement;
 
 /**
  * Subscriber data parser
