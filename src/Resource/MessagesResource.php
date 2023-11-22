@@ -8,6 +8,7 @@ use Bridit\ExpertSenderApi\Model\TransactionalPostRequest\Attachment;
 use Bridit\ExpertSenderApi\Model\TransactionalPostRequest\Snippet;
 use Bridit\ExpertSenderApi\Model\TriggersPostRequest\Receiver;
 use Bridit\ExpertSenderApi\Model\TransactionalPostRequest\Receiver as TransactionalReceiver;
+use Bridit\ExpertSenderApi\Request\MessagePreviewRequest;
 use Bridit\ExpertSenderApi\Request\SystemTransactionalPostRequest;
 use Bridit\ExpertSenderApi\Request\TransactionalPostRequest;
 use Bridit\ExpertSenderApi\Request\TriggersPostRequest;
@@ -21,6 +22,18 @@ use Bridit\ExpertSenderApi\ResponseInterface;
  */
 class MessagesResource extends AbstractResource
 {
+    /**
+     * Get message preview
+     *
+     * @param int $messageId Message ID
+     *
+     * @return ResponseInterface Response
+     */
+    public function getMessagePreview(int $messageId): ResponseInterface
+    {
+        return $this->requestSender->send(new MessagePreviewRequest($messageId));
+    }
+
     /**
      * Send trigger message
      *
