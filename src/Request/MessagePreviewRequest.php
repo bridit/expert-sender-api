@@ -5,7 +5,6 @@ namespace Bridit\ExpertSenderApi\Request;
 
 use Bridit\ExpertSenderApi\Enum\HttpMethod;
 use Bridit\ExpertSenderApi\RequestInterface;
-use Webmozart\Assert\Assert;
 
 /**
  * Request for GET Message Preview
