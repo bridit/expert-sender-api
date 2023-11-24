@@ -37,7 +37,14 @@ class MessageService extends AbstractService
 
   private function getSnippets(?array $snippets = []): array
   {
-    return array_map(fn($item) => new Snippet(name: $item['name'], value: $item['value']), $snippets);
+    $converted = [];
+
+    foreach ($snippets as $name => $value)
+    {
+      $converted[] = new Snippet(name: $name, value: $value);
+
+    }
+    return $converted;
   }
 
 }
