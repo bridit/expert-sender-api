@@ -2,11 +2,13 @@
 
 namespace Bridit\ExpertSenderApi\Services;
 
+use Bridit\ExpertSenderApi\Model\SubscriberData;
 use Bridit\ExpertSenderApi\Model\SubscribersPostRequest\Value;
 use Bridit\ExpertSenderApi\Model\SubscribersPostRequest\Options;
 use Bridit\ExpertSenderApi\Model\SubscribersPostRequest\Property;
 use Bridit\ExpertSenderApi\Model\SubscribersPostRequest\Identifier;
 use Bridit\ExpertSenderApi\Model\SubscribersPostRequest\SubscriberInfo;
+use Bridit\ExpertSenderApi\Response\SubscribersGetFullResponse;
 use Bridit\ExpertSenderApi\ValueObjects\Property as PropertyVO;
 use Bridit\ExpertSenderApi\ValueObjects\Subscriber;
 use Bridit\ExpertSenderApi\ValueObjects\SubscriberUpsertResponse;
@@ -16,18 +18,25 @@ use Exception;
 class SubscriberService extends AbstractService
 {
 
+  public function findByEmail(string $email): SubscriberData
+  {
+    $response = $this->api
+      ->subscribers()
+      ->getFull(email: $email);
+
+    return (new SubscribersGetFullResponse($response))
+      ->getSubscriberData();
+  }
+  
   /**
    * @param Subscriber $subscriber
    * @return SubscriberUpsertResponse
    */
   public function upsert(Subscriber $subscriber): SubscriberUpsertResponse
   {
-
-    $options = new Options(true, true);
-
     $response = $this->api
       ->subscribers()
-      ->addOrEdit($this->getAddOrEditPayload($subscriber), $options);
+      ->addOrEdit($this->getAddOrEditPayload($subscriber), new Options(true, true));
 
     return new SubscriberUpsertResponse(
       success: $response->isOk(), httpCode: $response->getHttpStatusCode(),
