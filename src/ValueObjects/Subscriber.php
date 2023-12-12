@@ -18,10 +18,10 @@ class Subscriber
     public ?int    $listId,
     public ?string $email,
     public ?string $name,
-    public ?string $phoneNumber,
-    public ?string $customId,
-    public ?array  $properties,
-    public ?int    $id,
+    public ?string $phoneNumber = null,
+    public ?string $customId = null,
+    public ?array  $properties = [],
+    public ?int    $id = null,
   )
   {
     //
