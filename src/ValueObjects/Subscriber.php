@@ -12,6 +12,7 @@ class Subscriber
    * @param string|null $phoneNumber
    * @param string|null $customId
    * @param Property[]|null $properties
+   * @param int|null $id
    */
   public function __construct(
     public ?int    $listId,
@@ -19,7 +20,8 @@ class Subscriber
     public ?string $name,
     public ?string $phoneNumber,
     public ?string $customId,
-    public ?array  $properties
+    public ?array  $properties,
+    public ?int    $id,
   )
   {
     //

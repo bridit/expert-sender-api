@@ -42,9 +42,11 @@ class SubscriberService extends AbstractService
    */
   protected function getAddOrEditPayload(Subscriber $subscriber): array
   {
-    $emailIdentifier = Identifier::createEmail($subscriber->email);
+    $identifier = !is_null($subscriber->id) 
+      ? Identifier::createId($subscriber->id)
+      : Identifier::createEmail($subscriber->email);
 
-    $subscriberInfo = new SubscriberInfo($emailIdentifier, $subscriber->listId);
+    $subscriberInfo = new SubscriberInfo($identifier, $subscriber->listId);
     $subscriberInfo->setAllowAddUserThatWasDeleted(true);
     $subscriberInfo->setAllowAddUserThatWasUnsubscribed(true);
 
